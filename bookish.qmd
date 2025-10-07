@@ -7,6 +7,7 @@ toc: false
 [![](img/bookish.png)](https://shesbecomingbookish.com/)
 
 ::: {.column-margin}
+
 <small>Jessica Maddox and Fiona Gill, "[Assembling 'Sides' of TikTok: Examining Community, Culture, and Interface through a BookTok Case Study](https://journals.sagepub.com/doi/epub/10.1177/20563051231213565)"<br><br>José M. Tomasena, "[Negotiating Collaborations: BookTubers, The Publishing Industry, and YouTube’s Ecosystem](https://journals.sagepub.com/doi/epub/10.1177/2056305119894004)"</small><br><br>
 
 <small>Alysia De Melo, "[The Influence of BookTok on Literary Criticisms and Diversity](https://journals.sagepub.com/doi/epub/10.1177/20563051241286700)"<br><br>Michael Dezuanni and Amy Schoonens, "[#BookTok’s Peer Pedagogies: Invitations to Learn About Books and Reading on TikTok](https://journals.sagepub.com/doi/epub/10.1177/20563051241309499)"</small>
@@ -15,9 +16,11 @@ toc: false
 
 > *Bookstagram is known for its luxurious aesthetic celebrating the materiality of books ... This bookish aesthetic is developed in posts that feature beautifully styled books and bookish objects as well as posts that celebrate reading as desirable activity.*
 >
-> ---Bronwyn Reddan, "[Social reading cultures on BookTube, Bookstagram, and BookTok](http://www.slav.vic.edu.au/index.php/Synergy/article/view/597)
+> ---Bronwyn Reddan, "[Social reading cultures on BookTube, Bookstagram, and BookTok](pdf/bronwyn-reddan-social-reading.pdf)"
 
 ::: {.column-margin}
+
+Lanre Bakare, "[‘Literature has completely changed my life’: footballer Héctor Bellerín’s reading list](https://www.theguardian.com/books/2025/jul/19/literature-changed-my-life-arsenal-hector-bellerin-arsenal)" (*The Guardian*, 19 July 2025).<br><br>
 
 "Researching Booktube as a Booktuber" ([José Miguel Tomasena](https://www.youtube.com/@jmtomasena_))<br><br>
 
@@ -50,6 +53,7 @@ There is a lot more to say about the larger cult of print books and embodied rea
 **Key Concepts**
 
 -   "Side" (of TikTok)
+-   Platformization
 -   Platform vernaculars
 -   Imitation publics
 -   Imagined communities
