@@ -22,6 +22,8 @@ website:
           contents:
             - text: Fandom
               file: w2-fandom.qmd
+            - text: BookTok
+              file: bookish.qmd
         # - section: "Resources"
         #   contents:
         #     - text: Key Concepts

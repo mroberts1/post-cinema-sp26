@@ -10,7 +10,7 @@ library(tidyverse)
 library(palmerpenguins)
 ```
 
-# W2: Fandom
+# Fandom
 
 ><small>*Making great music and being great on stage no longer seem to be enough*</small>.
 
