@@ -4,7 +4,20 @@ title: "    "
 
 #  Studies in Digital Media & Culture
 
-[![](chayka_internet_final2-small.gif)](https://www.newyorker.com/culture/infinite-scroll/how-the-internet-turned-us-into-content-machines)
+
+<div>
+
+<video autoplay loop muted playsinline controls="false" width="100%">
+
+<source src="video/artifact.mp4" type="video/mp4">
+
+</video>
+
+</div>
+
+<!-- ![](gif/artifact.gif) -->
+
+<!-- [![](chayka_internet_final2-small.gif)](https://www.newyorker.com/culture/infinite-scroll/how-the-internet-turned-us-into-content-machines) -->
 
 ::: {.column-margin}
 
@@ -22,7 +35,9 @@ Hours: Tues/Thur 14:30-3:30\
 
 :::
 
-<small>Image: Nicholas Conrad / *The New Yorker* </small>
+<small>NFT art: Humdrum, "[praying in the wrong language](https://objkt.com/collections/KT1E7znsyTBbvpzTv3AbyWZ2K9XNwzt3zViJ)" (22 July 2025)  
+Current price: $62.18 (100.00 ꜩ) </small>
+<!-- <small>Image: Nicholas Conrad / *The New Yorker* </small> -->
 
 
 ## Overview
