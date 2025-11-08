@@ -221,11 +221,9 @@ and Improvisation on TikTok](https://scholarlypublishingcollective.org/uip/jac/a
 
 10-28_Tues
 
-- Adam Aleksic, *Algospeak: How Social Media Is Transforming the Future of Language*
-
 10-30_Thur
 
-- Taylor Lorenz, "[Internet 'algospeak' is changing our language in real time, from 'nip nops' to 'le dollar bean'](https://www.washingtonpost.com/technology/2022/04/08/algospeak-tiktok-le-dollar-bean/)" (**Washington Post**, 8 April 2022) \[[pdf](pdf/algospeak.pdf)\]
+
 
 ***
 
@@ -253,15 +251,14 @@ NO CLASS (Veteran's Day)
 
 11-13_Thur
 
-**Algorithmic Art**
-
-- Kevin Esherick, "Manglecore and the Aesthetic of Strangeness" (*Duckrabbit* blog, 5 February 2024)
+- Adam Aleksic, "[How to Play Linguistic Whac-A-Mole", "Sticking Out Your Gyat for the Rizzler](pdf/algospeak-chs1-2.pdf)" (chs. 1-2 of *Algospeak: How Social Media Is Transforming the Future of Language*)
+- Taylor Lorenz, "[Internet 'algospeak' is changing our language in real time, from 'nip nops' to 'le dollar bean'](https://www.washingtonpost.com/technology/2022/04/08/algospeak-tiktok-le-dollar-bean/)" (**Washington Post**, 8 April 2022) \[[pdf](pdf/algospeak.pdf)\]
 
 ***
 
 *Week 12*
 
-**Algorithmic Art** (cont.)  
+**Algorithmic Art** 
 
 11-18_Tues
 
@@ -269,6 +266,7 @@ Lev Manovich and Emmanuele Arielli, [*Artificial Aesthetics*](https://manovich.n
 
 - "Who is an Artist in AI Era?" (ch. 2)
 - "AI and Myths of Creativity" (ch. 4)
+-  Kevin Esherick, "Manglecore and the Aesthetic of Strangeness" (*Duckrabbit* blog, 5 February 2024)
 
 11-20_Thur
 
