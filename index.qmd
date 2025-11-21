@@ -1,9 +1,6 @@
 ---
-title: "    "
+title: "digital media & culture"
 ---
-
-#  Studies in Digital Media & Culture
-
 
 <div>
 
@@ -21,9 +18,9 @@ title: "    "
 
 ::: {.column-margin}
 
+VM303-01\
 [Department of Visual & Media Arts](https://emerson.edu/academics/academic-departments/visual-media-arts)\
 [Emerson College](https://emerson.edu/)\
-VM303-01\
 Fall Semester 2025\
 Tues/Thur 4 Sept-12 Dec 2025\
 18:00-19:45\
