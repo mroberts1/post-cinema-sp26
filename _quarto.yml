@@ -70,7 +70,7 @@ format:
     smooth-scroll: true
     linkcolor: "#62259d"
     title-block-banner: false
-  #PrettyPDF-pdf: default
+  PrettyPDF-pdf: default
 lightbox:
   match: auto
 fig-responsive: true

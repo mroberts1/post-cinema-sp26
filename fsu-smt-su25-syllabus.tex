@@ -1,0 +1,1052 @@
+% Options for packages loaded elsewhere
+% Options for packages loaded elsewhere
+\PassOptionsToPackage{unicode}{hyperref}
+\PassOptionsToPackage{hyphens}{url}
+\PassOptionsToPackage{dvipsnames,svgnames,x11names}{xcolor}
+%
+\documentclass[
+  letterpaper,
+  DIV=11,
+  numbers=noendperiod]{scrartcl}
+\usepackage{xcolor}
+\usepackage{amsmath,amssymb}
+\setcounter{secnumdepth}{-\maxdimen} % remove section numbering
+\usepackage{iftex}
+\ifPDFTeX
+  \usepackage[T1]{fontenc}
+  \usepackage[utf8]{inputenc}
+  \usepackage{textcomp} % provide euro and other symbols
+\else % if luatex or xetex
+  \usepackage{unicode-math} % this also loads fontspec
+  \defaultfontfeatures{Scale=MatchLowercase}
+  \defaultfontfeatures[\rmfamily]{Ligatures=TeX,Scale=1}
+\fi
+\usepackage{lmodern}
+\ifPDFTeX\else
+  % xetex/luatex font selection
+\fi
+% Use upquote if available, for straight quotes in verbatim environments
+\IfFileExists{upquote.sty}{\usepackage{upquote}}{}
+\IfFileExists{microtype.sty}{% use microtype if available
+  \usepackage[]{microtype}
+  \UseMicrotypeSet[protrusion]{basicmath} % disable protrusion for tt fonts
+}{}
+\makeatletter
+\@ifundefined{KOMAClassName}{% if non-KOMA class
+  \IfFileExists{parskip.sty}{%
+    \usepackage{parskip}
+  }{% else
+    \setlength{\parindent}{0pt}
+    \setlength{\parskip}{6pt plus 2pt minus 1pt}}
+}{% if KOMA class
+  \KOMAoptions{parskip=half}}
+\makeatother
+% Make \paragraph and \subparagraph free-standing
+\makeatletter
+\ifx\paragraph\undefined\else
+  \let\oldparagraph\paragraph
+  \renewcommand{\paragraph}{
+    \@ifstar
+      \xxxParagraphStar
+      \xxxParagraphNoStar
+  }
+  \newcommand{\xxxParagraphStar}[1]{\oldparagraph*{#1}\mbox{}}
+  \newcommand{\xxxParagraphNoStar}[1]{\oldparagraph{#1}\mbox{}}
+\fi
+\ifx\subparagraph\undefined\else
+  \let\oldsubparagraph\subparagraph
+  \renewcommand{\subparagraph}{
+    \@ifstar
+      \xxxSubParagraphStar
+      \xxxSubParagraphNoStar
+  }
+  \newcommand{\xxxSubParagraphStar}[1]{\oldsubparagraph*{#1}\mbox{}}
+  \newcommand{\xxxSubParagraphNoStar}[1]{\oldsubparagraph{#1}\mbox{}}
+\fi
+\makeatother
+
+
+\usepackage{longtable,booktabs,array}
+\usepackage{calc} % for calculating minipage widths
+% Correct order of tables after \paragraph or \subparagraph
+\usepackage{etoolbox}
+\makeatletter
+\patchcmd\longtable{\par}{\if@noskipsec\mbox{}\fi\par}{}{}
+\makeatother
+% Allow footnotes in longtable head/foot
+\IfFileExists{footnotehyper.sty}{\usepackage{footnotehyper}}{\usepackage{footnote}}
+\makesavenoteenv{longtable}
+\usepackage{graphicx}
+\makeatletter
+\newsavebox\pandoc@box
+\newcommand*\pandocbounded[1]{% scales image to fit in text height/width
+  \sbox\pandoc@box{#1}%
+  \Gscale@div\@tempa{\textheight}{\dimexpr\ht\pandoc@box+\dp\pandoc@box\relax}%
+  \Gscale@div\@tempb{\linewidth}{\wd\pandoc@box}%
+  \ifdim\@tempb\p@<\@tempa\p@\let\@tempa\@tempb\fi% select the smaller of both
+  \ifdim\@tempa\p@<\p@\scalebox{\@tempa}{\usebox\pandoc@box}%
+  \else\usebox{\pandoc@box}%
+  \fi%
+}
+% Set default figure placement to htbp
+\def\fps@figure{htbp}
+\makeatother
+
+
+
+
+
+\setlength{\emergencystretch}{3em} % prevent overfull lines
+
+\providecommand{\tightlist}{%
+  \setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
+
+
+
+ 
+
+
+% load packages
+\usepackage{geometry}
+\usepackage{xcolor}
+\usepackage{eso-pic}
+\usepackage{fancyhdr}
+\usepackage{sectsty}
+\usepackage{fontspec}
+\usepackage{titlesec}
+
+%% Set page size with a wider right margin
+\geometry{a4paper, total={170mm,257mm}, left=20mm, top=20mm, bottom=20mm, right=50mm}
+
+%% Let's define some colours
+\definecolor{light}{HTML}{E6E6FA}
+\definecolor{highlight}{HTML}{800080}
+\definecolor{dark}{HTML}{330033}
+
+%% Let's add the border on the right hand side 
+% \AddToShipoutPicture{% 
+%     \AtPageLowerLeft{% 
+%         \put(\LenToUnit{\dimexpr\paperwidth-3cm},0){% 
+%             \color{light}\rule{3cm}{\LenToUnit\paperheight}%
+%           }%
+%      }%
+%      % logo
+%     \AtPageLowerLeft{% start the bar at the bottom right of the page
+%         \put(\LenToUnit{\dimexpr\paperwidth-2.25cm},27.2cm){% move it to the top right
+%             \color{light}\includegraphics[width=1.5cm]{_extensions/nrennie/PrettyPDF/logo.png}
+%           }%
+%      }%
+% }
+
+%% Style the page number
+\fancypagestyle{mystyle}{
+  \fancyhf{}
+  \renewcommand\headrulewidth{0pt}
+  \fancyfoot[R]{\thepage}
+  \fancyfootoffset{3.5cm}
+}
+\setlength{\footskip}{20pt}
+
+%% style the chapter/section fonts
+\chapterfont{\color{dark}\fontsize{20}{16.8}\selectfont}
+\sectionfont{\color{dark}\fontsize{20}{16.8}\selectfont}
+\subsectionfont{\color{dark}\fontsize{14}{16.8}\selectfont}
+\titleformat{\subsection}
+  {\sffamily\Large\bfseries}{\thesection}{1em}{}[{\titlerule[0.8pt]}]
+  
+% left align title
+\makeatletter
+\renewcommand{\maketitle}{\bgroup\setlength{\parindent}{0pt}
+\begin{flushleft}
+  {\sffamily\huge\textbf{\MakeUppercase{\@title}}} \vspace{0.3cm} \newline
+  {\Large {\@subtitle}} \newline
+  \@author
+\end{flushleft}\egroup
+}
+\makeatother
+
+%% Use some custom fonts
+\setsansfont{Ubuntu}[
+    Path=_extensions/nrennie/PrettyPDF/Ubuntu/,
+    Scale=0.9,
+    Extension = .ttf,
+    UprightFont=*-Regular,
+    BoldFont=*-Bold,
+    ItalicFont=*-Italic,
+    ]
+
+\setmainfont{Ubuntu}[
+    Path=_extensions/nrennie/PrettyPDF/Ubuntu/,
+    Scale=0.9,
+    Extension = .ttf,
+    UprightFont=*-Regular,
+    BoldFont=*-Bold,
+    ItalicFont=*-Italic,
+    ]
+\KOMAoption{captions}{tableheading}
+\makeatletter
+\@ifpackageloaded{caption}{}{\usepackage{caption}}
+\AtBeginDocument{%
+\ifdefined\contentsname
+  \renewcommand*\contentsname{Table of contents}
+\else
+  \newcommand\contentsname{Table of contents}
+\fi
+\ifdefined\listfigurename
+  \renewcommand*\listfigurename{List of Figures}
+\else
+  \newcommand\listfigurename{List of Figures}
+\fi
+\ifdefined\listtablename
+  \renewcommand*\listtablename{List of Tables}
+\else
+  \newcommand\listtablename{List of Tables}
+\fi
+\ifdefined\figurename
+  \renewcommand*\figurename{Figure}
+\else
+  \newcommand\figurename{Figure}
+\fi
+\ifdefined\tablename
+  \renewcommand*\tablename{Table}
+\else
+  \newcommand\tablename{Table}
+\fi
+}
+\@ifpackageloaded{float}{}{\usepackage{float}}
+\floatstyle{ruled}
+\@ifundefined{c@chapter}{\newfloat{codelisting}{h}{lop}}{\newfloat{codelisting}{h}{lop}[chapter]}
+\floatname{codelisting}{Listing}
+\newcommand*\listoflistings{\listof{codelisting}{List of Listings}}
+\makeatother
+\makeatletter
+\makeatother
+\makeatletter
+\@ifpackageloaded{caption}{}{\usepackage{caption}}
+\@ifpackageloaded{subcaption}{}{\usepackage{subcaption}}
+\makeatother
+\makeatletter
+\@ifpackageloaded{tcolorbox}{}{\usepackage[skins,breakable]{tcolorbox}}
+\makeatother
+\makeatletter
+\@ifundefined{shadecolor}{\definecolor{shadecolor}{rgb}{.97, .97, .97}}{}
+\makeatother
+\makeatletter
+\@ifundefined{codebgcolor}{\definecolor{codebgcolor}{named}{light}}{}
+\makeatother
+\makeatletter
+\ifdefined\Shaded\renewenvironment{Shaded}{\begin{tcolorbox}[boxrule=0pt, breakable, colback={codebgcolor}, enhanced, sharp corners, frame hidden]}{\end{tcolorbox}}\fi
+\makeatother
+\usepackage{bookmark}
+\IfFileExists{xurl.sty}{\usepackage{xurl}}{} % add URL line breaks if available
+\urlstyle{same}
+\hypersetup{
+  pdftitle={COMM 7018: Social Media Theory},
+  colorlinks=true,
+  linkcolor={highlight},
+  filecolor={Maroon},
+  citecolor={Blue},
+  urlcolor={highlight},
+  pdfcreator={LaTeX via pandoc}}
+
+
+\title{COMM 7018: Social Media Theory}
+\author{}
+\date{}
+\begin{document}
+\maketitle
+
+\pagestyle{mystyle}
+
+
+\begin{figure}
+
+\begin{minipage}{0.48\linewidth}
+\href{http://polyducks.co.uk/}{\pandocbounded{\includegraphics[keepaspectratio]{img/polyducks.png}}}\end{minipage}%
+%
+\begin{minipage}{0.04\linewidth}
+~\end{minipage}%
+%
+\begin{minipage}{0.48\linewidth}
+\href{https://fitchburgstate.edu}{Fitchburg State University}\\
+\href{https://www.fitchburgstate.edu/academics/academic-schools/school-arts-and-sciences/communications-media-department}{Communications
+Media Department}\\
+\href{https://www.fitchburgstate.edu/academics/programs/social-media-concentration-applied-communication-ms-online}{MS
+in Applied Communication: Social Media Concentration}\\
+GCE Online-Accelerated\\
+7 weeks, Mon 19 May---Sun 6 July 2025\\
+Instructor: Dr.~Martin Roberts\\
+\href{https://mroberts1.github.io/fsu-smt-su24}{Syllabus}\\
+\href{https://github.com/mroberts1/fsu-smt-su24}{GitHub repository}
+\end{minipage}%
+
+\end{figure}%
+
+\subsection{Introduction}\label{introduction}
+
+The term \textbf{social media} is popularly understood as referring to
+corporate-owned, advertising-funded communication \textbf{platforms}
+based on \textbf{user-generated content}: YouTube, Instagram, Facebook,
+Twitter, Twitch, Discord, TikTok. It can also be defined more broadly,
+however, as a set of networked, technologically-mediated
+\textbf{practices} of communication, structured by economic and
+political forces that both inflect and are inflected by social and
+cultural identities. These platforms, the social practices that they
+enable, and the relationship between the two are the objects of
+\textbf{social media theory}. But what does it mean to theorize social
+media? Why do we need social media theory at all?
+
+To theorize something involves a number of processes
+
+\begin{itemize}
+\tightlist
+\item
+  first, how do we define the phenomenon or object of study itself? How
+  does it differ from previous or other related phenomena?
+\item
+  how are we to account for it? Why did it happen/is it happening now
+  rather than at some other time? What are its conditions of
+  possibility?
+\item
+  what is its relation to larger areas of society? What are its
+  implications for those areas?
+\item
+  how are we to evaluate it, in terms of its implications (political,
+  economic, social, ethical, legal, environmental, aesthetic)? What are
+  its possibilities and limits, its progressive and oppressive aspects?
+  How can we change it for the better?
+\end{itemize}
+
+These processes involve developing analytical frameworks or models
+comprising concepts that are useful for identifying and analyzing key
+aspects of and issues raised by the phenomenon/object in question. These
+frameworks and concepts typically draw from existing ones in different
+fields of study, but often involve the proposal of new frameworks and
+concepts specific to the field in question.
+
+\subsection{Objectives}\label{objectives}
+
+By the end of the course, students will be able to:
+
+\begin{itemize}
+\tightlist
+\item
+  analyze technologies past, present, and imagined
+\item
+  describe the ways in which technologies shape our world the ways in
+  which we shape those technologies
+\item
+  explain how social media is a result of the intersection between
+  technologies and existing human communication dynamics
+\item
+  discuss how theory of technology and social media can improve the
+  vocational outlook of a student
+\item
+  play a productive role in and facilitate conversations that tease out
+  the relationships between values and technology.\\
+\item
+  through the skills you will refine in writing your research papers,
+  clearly explain how a specific technology shapes the social world that
+  we live in.
+\end{itemize}
+
+\subsection{Reading Assignments}\label{reading-assignments}
+
+All weekly reading assignments are linked directly to online sources.
+Please download and print out PDFs during the first week of the course.
+
+\subsection{Course Information}\label{course-information}
+
+\textbf{Platforms}\\
+We'll be using Blackboard for submitting assignments ONLY. For
+discussion, we will be using
+\href{https://discord.gg/GUSz99EP}{Discord}.
+
+On Discord, if you don't already have an account, please set one up
+using your Fitchburg State University email address as ID.
+
+If you already have a Discord account there will be problems setting up
+an account for the course because each account has to be tied to a
+different phone number, so you will not be able to use your regular
+phone number for verification. For this reason, you may use your
+existing account, but if you use a pseudonym please let me know what
+this is so I know who you are!
+
+Please be sure to check in to the site at least once daily M-F to check
+the Announcements page and the Discussion forum for the week.
+
+\subsection{Assignments / Evaluation}\label{assignments-evaluation}
+
+\begin{itemize}
+\tightlist
+\item
+  \textbf{Review}: 6, weekly from Week 1, one short post responding to
+  at least one of the readings, 250 words (maximum), due by Sunday
+  (15\%)\\
+\item
+  \textbf{Discussion}: weekly after Week 1, 2-3 responses to other
+  students' posts., due by the \emph{following} Sunday (15\%)\\
+\item
+  \textbf{Commentary}: 2 short papers, 1000 words, due Sunday of Week 3
+  and Week 5 (20\%)\\
+\item
+  \textbf{Keywords}: 500-750 words on a key concept in social media
+  theory, with bibliography/references, due Sunday of Week 4 (25\%)\\
+\item
+  \textbf{Platform Case Study}: 2,000 words, due Sunday of Week 7 (25\%)
+\end{itemize}
+
+\textbf{Discussion: Agenda, Review, Reply Posts}\\
+For Weeks 1-6, each of the weekly topics will be active across a cycle
+of two weeks.
+
+By \textbf{Wednesday} of each week, I will post an Agenda item in the
+Discussion forum for the topic of the week that discusses the reading
+assignments for the week, identifying key themes, concepts, and/or
+issues to look out for as you read. Be sure to read the Agenda post
+before beginning the reading assignments.
+
+In the first week, complete the reading assignments and make an initial
+response post called a Review, with question and/or comments on them, by
+\textbf{Sunday} of the week in question.
+
+In the second week, read through the Review posts of the group and post
+at least one Reply to one of them by Friday of that week.
+
+\textbf{Commentary Papers}\\
+These short papers (750-1,000 words) are due at the end of Week 3 and
+Week 5 (Sunday). They should consist of close analytical readings of any
+of the reading assignments for the period Weeks 1-3 or 4-5. You are
+encouraged to focus in detail on particular sections, arguments, and/or
+concepts from the readings and develop them.
+
+\textbf{Platform Case Study}\\
+The culminating written assignment for the course (2,000 words) may
+consist of a research paper or report.
+
+A 1-page preliminary proposal with ideas for your project, with a short
+bibliography with sources and/or links, should be posted in the
+Discussion forum for the purpose by the end of Week 5, and you will
+receive feedback during Week 6.
+
+\subsection{Journals and other research
+resources}\label{journals-and-other-research-resources}
+
+A very useful reference guide for research:
+
+Anabel Quan-Haase and Luke Sloan, eds., \textbf{The SAGE Handbook of
+Social Media Research Methods}. Second edition. London: SAGE Books,
+2022.
+
+Includes large sections on both qualitative and quantitative reserach
+methods, as well as chapters specifically on doing research on YouTube,
+TikTok, and other platforms.
+
+You are recommended to add all of the sources below to your bookmarks
+bar for easy access.
+
+\href{https://www.creator-studies.com/}{\textbf{Creators and Platform
+Labor Working Group}} (Cornell University)\\
+\href{https://datasociety.net/}{\textbf{Data \& Society}}\\
+\href{https://www.e-flux.com/}{\textbf{e-flux Journal}}\\
+\href{https://www.invisibleculturejournal.com/}{\textbf{Invisible
+Culture: A Journal for Visual Culture}}\\
+\href{https://journals.sagepub.com/home/NMS}{\textbf{New Media \&
+Society}}\\
+\href{https://www.newmodels.io/}{\textbf{New Models}}\\
+\href{https://journals.sagepub.com/home/SMS}{\textbf{Social Media +
+Society}}\\
+\href{https://tiktokcultures.com/}{\textbf{TikTok Cultures Research
+Network}}\\
+\href{https://reallifemag.com/}{\textbf{Real Life}} (now discontinued
+online magazine about technology and everyday life)
+
+\subsection{Keywords}\label{keywords}
+
+\begin{itemize}
+\tightlist
+\item
+  Algospeak
+\item
+  Below the radar
+\item
+  Digital ethnography
+\item
+  Imagined audience
+\item
+  Imitation publics
+\item
+  Livestreaming
+\item
+  Parasociality
+\item
+  Platformization
+\end{itemize}
+
+\subsection{Research Topics}\label{research-topics}
+
+\begin{itemize}
+\tightlist
+\item
+  Film TikTok
+\item
+  \#Booktok
+\item
+  Global Labor and the Gig Economy
+\item
+  Dark Forest Theory of the Internet
+\end{itemize}
+
+\subsection{Schedule}\label{schedule}
+
+\emph{Week 1} M 05/19
+
+\textbf{I. Theorizing Social Media}
+
+\textbf{Infinite Content}
+
+\begin{itemize}
+\tightlist
+\item
+  \href{https://carolinebusta.github.io/}{Caroline Busta},
+  ``\href{https://www.documentjournal.com/2024/05/technical-images-film01-angelicism-art-showtime-true-detective-shein/}{Hallucinating
+  sense in the era of infinity-content}''\footnote{This text explores
+    how the internet and media are changing how we assign meaning to
+    content, moving beyond traditional text-based communication. It
+    suggests that in a time of infinite content, our ability to sense
+    and interpret non-linear information is becoming essential. The
+    shift towards sensory-based communication may impact how we perceive
+    reality and interact with technology. ---GPT3.5}
+  (\href{https://www.documentjournal.com/}{\textbf{Document}}, 29 May
+  2024)
+  {[}\href{https://soundcloud.com/newmodels/nm-reads-hallucinating-sense-in-the-era-of-infinity-content-by-caroline-busta}{Audio}{]}
+\item
+  Nicole Lipman,
+  ``\href{https://www.nplusonemag.com/issue-47/reviews/super-cute-please-like}{Super
+  Cute Please Like}'' (\textbf{n+1} 47 (Spring 2024))\footnote{SHEIN is
+    a popular fast-fashion brand known for its wide range of trendy and
+    affordable clothing. The brand quickly produces garments,
+    capitalizing on micro trends and offering low prices. Despite
+    criticisms of exploitation and environmental impact, SHEIN's unique
+    marketing strategies and expansive catalog make it a prominent
+    player in the fashion industry. ---GPT3.5}
+\item
+  Timo Kollbrunner,
+  ``\href{https://stories.publiceye.ch/en/shein/}{Toiling Away for
+  Shein}'' (\href{https://www.publiceye.ch/en/}{\textbf{Public Eye}},
+  November 2021)
+\end{itemize}
+
+\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
+
+\emph{Week 2} M 05/26
+
+\textbf{Our Algorithms, Ourselves}
+
+\begin{itemize}
+\tightlist
+\item
+  \href{https://sophiebishop.co.uk/}{Sophie Bishop} and Tanya Kant,
+  ``\href{https://journals.sagepub.com/doi/epub/10.1177/00380261221146403}{Algorithmic
+  autobiographies and fictions: A digital method}''
+\item
+  \href{https://sophiebishop.co.uk/}{Sophie Bishop},
+  ``\href{https://journals.sagepub.com/doi/epub/10.1177/2056305119897323}{Algorithmic
+  Experts: Selling Algorithmic Lore on YouTube}''
+\item
+  \href{https://www.kylechayka.com/}{Kyle Chayka},
+  ``\href{pdf/filterworld-intro.pdf}{Introduction}''
+  (\textbf{Filterworld})
+\item
+  \href{https://www.kylechayka.com/}{Kyle Chayka},
+  ``\href{pdf/filterworld-ch1.pdf}{The Rise of Algorithmic
+  Recommendations}'' (\textbf{Filterworld}, ch.~1)
+\item
+  See also: Taylor Lorenz,
+  ``\href{https://www.washingtonpost.com/technology/2022/04/08/algospeak-tiktok-le-dollar-bean/}{Internet
+  `algospeak' is changing our language in real time, from `nip nops' to
+  `le dollar bean'}'' (\textbf{Washington Post}, 8 April 2022)
+  {[}\href{pdf/algospeak.pdf}{pdf}{]}
+\end{itemize}
+
+\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
+
+\emph{Week 3} M 06/02
+
+\textbf{Influencers}
+
+\begin{itemize}
+\tightlist
+\item
+  \href{https://sophiebishop.co.uk/}{Sophie Bishop},
+  ``\href{https://reallifemag.com/influencer-creep/}{Influencer Creep}''
+\item
+  \href{https://sophiebishop.co.uk/}{Sophie Bishop},
+  ``\href{https://journals.sagepub.com/doi/epub/10.1177/14614448231206090}{Influencer
+  creep: How artists strategically navigate the platformisation of art
+  worlds}''
+\end{itemize}
+
+See also:
+
+\begin{itemize}
+\tightlist
+\item
+  \href{https://sophiebishop.co.uk/}{Sophie Bishop},
+  ``\href{https://sophiebishop.co.uk/wp-content/uploads/2023/12/how-to-research-online-influencers.pdf}{How
+  to Research Online Influencers}''
+\item
+  \href{https://sophiebishop.co.uk/}{Sophie Bishop},
+  ``\href{https://journals.sagepub.com/doi/epub/10.1177/20563051211003066}{Influencer
+  Management Tools: Algorithmic Cultures, Brand Safety, and Bias}''
+\end{itemize}
+
+\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
+
+\emph{Week 4} M 06/09
+
+\textbf{II. Platform Cultures}
+
+\textbf{Books}
+
+\begin{itemize}
+\tightlist
+\item
+  Jessica Maddox and Fiona Gill,
+  ``\href{https://journals.sagepub.com/doi/epub/10.1177/20563051231213565}{Assembling
+  `Sides' of TikTok: Examining Community, Culture, and Interface through
+  a BookTok Case Study}''
+\item
+  José M. Tomasena,
+  ``\href{https://journals.sagepub.com/doi/epub/10.1177/2056305119894004}{Negotiating
+  Collaborations: BookTubers, The Publishing Industry, and YouTube's
+  Ecosystem}''
+\end{itemize}
+
+See also:
+
+\begin{itemize}
+\tightlist
+\item
+  Alysia De Melo,
+  ``\href{https://journals.sagepub.com/doi/epub/10.1177/20563051241286700}{The
+  Influence of BookTok on Literary Criticisms and Diversity}''
+\item
+  Michael Dezuanni and Amy Schoonens,
+  ``\href{https://journals.sagepub.com/doi/epub/10.1177/20563051241309499}{\#BookTok's
+  Peer Pedagogies: Invitations to Learn About Books and Reading on
+  TikTok}''
+\end{itemize}
+
+\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
+
+Break (due to instructor bereavement)
+
+\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
+
+\emph{Week 5} M 06/23
+
+\textbf{Music}
+
+\begin{itemize}
+\tightlist
+\item
+  David Hesmondhalgh, Ellis Jones, and Andreas Rauh,
+  ``\href{https://journals.sagepub.com/doi/epub/10.1177/2056305119883429}{Soundcloud
+  and Bandcamp as Alternative Music Platforms}''
+\item
+  Jeremy Wade Morris,
+  ``\href{https://journals.sagepub.com/doi/epub/10.1177/2056305120940690}{Music
+  Platforms and the Optimization of Culture}''
+\item
+  Robin James, ``\href{https://reallifemag.com/moving-in-stereo/}{Moving
+  in Stereo}''
+\item
+  D. Bondy Valdovinos Kaye,
+  ``\href{https://scholarlypublishingcollective.org/uip/jac/article/6/2/92/383572/JazzTok-Creativity-Community-and-Improvisation-on}{JazzTok:
+  Creativity, Community, and Improvisation on TikTok}''
+\end{itemize}
+
+\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
+
+\emph{Week 6} M 06/30
+
+\textbf{Media}
+
+\begin{itemize}
+\tightlist
+\item
+  \href{https://www.sunsunlim.com/}{Sun Sun Lim},
+  ``\href{https://journals.sagepub.com/doi/epub/10.1177/2056305115578137}{On
+  Stickers and Communicative Fluidity in Social Media}''
+\item
+  Sunny Yoon,
+  ``\href{https://journals.sagepub.com/doi/epub/10.1177/20563051241292577}{Webtoons,
+  Desperately Seeking Viewers: Interactive Creativity in Social Media
+  Platforms and Cultural Appropriation of Global Media Production}''
+\item
+  Kate M. Miltner and Tim Highfield,
+  ``\href{https://journals.sagepub.com/doi/epub/10.1177/2056305117725223}{Never
+  Gonna GIF You Up: Analyzing the Cultural Significance of the Animated
+  GIF}''
+\item
+  Luke Stark and Kate Crawford,
+  ``\href{https://journals.sagepub.com/doi/epub/10.1177/2056305115604853}{The
+  Conservatism of Emoji: Work, Affect, and Communication}''
+\end{itemize}
+
+\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
+
+\emph{Week 7} M 07/07
+
+\textbf{Aesthetics}
+
+\begin{itemize}
+\tightlist
+\item
+  Robin James, ``\href{https://reallifemag.com/new-normal/}{New
+  Normal}''
+\item
+  Paul Roquet, ``\href{https://reallifemag.com/in-the-mood/}{In the
+  Mood}''
+\item
+  Guilherme Giolo and Michaël Berghman, ``The Aesthetics of the Self:
+  The Meaning-Making of Internet Aesthetics''
+\item
+  See also:
+  \href{https://aesthetics.fandom.com/wiki/Aesthetics_Wiki}{Aesthetics
+  Wiki} (read all articles in the section called ``What Are
+  Aesthetics?'' and explore the site)
+\end{itemize}
+
+\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
+
+\subsection{Resources}\label{resources}
+
+\href{https://sophiebishop.co.uk/}{Sophie Bishop}~(works on influencer
+culture)\\
+\href{https://www.abbiesr.com/about}{Abbie Richards} (TikTok researcher,
+Media Matters)
+
+\subsection{Bibliography}\label{bibliography}
+
+D. Bondy Valdovinos Kaye, Jing Zeng, and Patrik Wikström,
+\textbf{TikTok: Creativity and culture in short video}. Cambridge:
+Polity Press, 2022.
+
+danah boyd, \textbf{It's Complicated: The Social Lives of Networked
+Teens} (New Haven: Yale University Press, 2014).
+
+Amy Bruckman, \textbf{Should You Believe Wikipedia? Online Communities
+and the Construction of Knowledge} (Cambridge: Cambridge University
+Press, 2022).
+
+Finn Brunton and Helen Nissenbaum, \textbf{Obfuscation: A User's Guide
+for Privacy and Protest} (Cambridge: MIT Press, 2016).
+
+Alessandro Caliandro and James Graham,
+``\href{https://journals.sagepub.com/doi/epub/10.1177/2056305120924779}{Studying
+Instagram Beyond Selfies}''
+
+\href{https://www.kylechayka.com/}{Kyle Chayka}, \textbf{Filterworld:
+How Algorithms Flattened Culture}. New York: Doubleday, 2024.
+
+Gabriella Coleman, \textbf{Hacker, Hoaxer, Whistleblower, Spy: The Many
+Faces of Anonymous} (London and New York: Verso, 2014).
+
+Claire Dederer, \textbf{Monsters: A Fan's Dilemma} (New York: Alfred A.
+Knopf, 2023).
+
+\href{https://emerson.edu/faculty-staff-directory/kate-eichhorn}{Kate
+Eichhorn},
+\href{https://mitpress.mit.edu/9780262543286/content/}{\textbf{Content}}.
+Essential Knowledge Series. Cambridge, MA: MIT Press, 2022.
+
+Alysia De Melo,
+``\href{https://journals.sagepub.com/doi/epub/10.1177/20563051241286700}{The
+Influence of BookTok on Literary Criticisms and Diversity}''
+
+Michael Dezuanni and Amy Schoonens,
+``\href{https://journals.sagepub.com/doi/epub/10.1177/20563051241309499}{\#BookTok's
+Peer Pedagogies: Invitations to Learn About Books and Reading on
+TikTok}''
+
+Brooke Erin Duffy, Thomas Poell, and David B Nieborg,
+``\href{https://journals.sagepub.com/doi/epub/10.1177/2056305119879672}{Platform
+Practices in the Cultural Industries: Creativity, Labor, and
+Citizenship}''
+
+Larissa Hjorth and Natalie Hendry,
+``\href{https://journals.sagepub.com/doi/epub/10.1177/2056305115580478}{A
+Snapshot of Social Media: Camera Phone Practices}''
+
+Sarah J. Jackson, Moya Bailey, et al., \textbf{\#Hashtag Activism:
+Networks of Race and Gender Justice} (Cambridge: MIT Press, 2020).
+
+D. Bondy Valdovinos Kaye,
+``\href{https://watermark.silverchair.com/92kaye.pdf?token=AQECAHi208BE49Ooan9kkhW_Ercy7Dm3ZL_9Cf3qfKAc485ysgAAA0IwggM-BgkqhkiG9w0BBwagggMvMIIDKwIBADCCAyQGCSqGSIb3DQEHATAeBglghkgBZQMEAS4wEQQMUQ3G4vO_yq2mYcrPAgEQgIIC9cFNcqJ-tvkfDkABZcgdqxRKk2nBHZwwo0JsNBv506DO0UmmiXXZMCVhjbGJulFTAD9GNWkNkMkdGiceXop6meQPzGcowi2352fEas53GVIEP6OfBSz7nGE3GDB5HeOgxIaNlYoBpu4eOkZuT9ylyL9nyJnLW728HsU6PoXyAzmvO21RZthx1-VDaii8db72kmS9SX754tbugG5z97yra1Vr7ZDZHcM6lWv_ot5YjNfgHX_YI0LUTbgorUsAS374e6ovCundjdohOPc0EzGKKsH3oB1TJ8t7KKM6-OUlGIhkNfHUZW27SwEHe9cysKfwKnIh2J3MdKs_Vb_5uq_glDkntrxoIaLL_H_ygoOhPpIUfeXhkaeCVTydh-Z81oOjo5T_d7wHLqmPGFR4ury1BQSv47KFmWcWNnamBqUOFqbe1sXZsjF4-LAjoTqERwmjA8KowI9oR8X6O0uFgfPL7X0lWa_WhIsTWiKtmHyOpteJeOmlSU63bf4KAPox_9SU0YahHIK1pd9hEfp7vY4h7zE88EYj9L8e_aTa37rNtt165htvmcuVE8Ed_9qCZghryDIy93hjLbBUIQbQvC_t-kv2PCYQRAkx7HjSIGnTqSogR0H8oxUX00LgHdfjqQF6LZoju0qhFfKyEbzWniLxr-iHZ4ESt6jgve5KGYDQNLVe9FZmeGMEayInt4izRmhvdunONM2nkhdeIYlDAaIoyfqIDXUqupLP1V_V6vGMVVb1-IY6RjGsj-T8TL4fM4K8WQT9LtytSmm2LXbqTH7QF91OoYcN-8_0WtY1UGr7KbRdg5bqKQpYQw5os3TpXOiNgS81QkP25iy-bQS4HU_d6jtubjXgcYYeHR_tNVTyY3ldUMiEKoJwAOKShlIzlAsc1LC0-e3VurvTPnyRkvZiSclNDceco2aUwR6Ld6WxexZvyltprjN5wxYBIx2k9EfnmXXiOYyMOswMU4ICOZEaw4Ba6qg7rfCTO4P6P1P3hSjS5jBakZY}{JazzTok:
+Creativity, Community, and Improvisation on TikTok},'' \textbf{Jazz and
+Culture} 6 (2) (2023): 92--116.
+
+\href{https://x.com/lagorio}{Christine Lagorio-Chafkin}, \textbf{We Are
+the Nerds: The Birth and Tumultuous Life of Reddit, the Internet's
+Culture Laboratory}. New York: Hachette Books, 2018.
+
+Jin Lee and Crystal Abidin,
+``\href{https://journals.sagepub.com/doi/epub/10.1177/20563051231157452}{Introduction
+to the Special Issue of `TikTok and Social Movements'}''
+
+Jessica Maddox and Fiona Gill,
+``\href{https://journals.sagepub.com/doi/epub/10.1177/20563051231213565}{Assembling
+`Sides' of TikTok: Examining Community, Culture, and Interface through a
+BookTok Case Study}''
+
+Gary Marcus \& Ernest Davis, \textbf{Rebooting AI: Building Artificial
+Intelligence We Can Trust} (New York: Pantheon Books, 2019).
+
+Angela Nagle, \textbf{Kill All Normies: Online Culture Wars From 4Chan
+and Tumblr to Trump and the Alt-Right} (Alresford, Hampshire, UK: Zero
+Books, 2017). * Cathy O'Neil, with Stephen Baker, \textbf{The Shame
+Machine: Who Profits in the New Age of Humiliation} (New York:
+Crown/Random House, 2022).
+
+David B Nieborg, Brooke Erin Duffy, and Thomas Poell,
+``\href{https://journals.sagepub.com/doi/epub/10.1177/2056305120943273}{Studying
+Platforms and Cultural Production: Methods, Institutions, and
+Practices}''
+
+\href{https://x.com/parmy}{Parmy Olson}, \textbf{Supremacy: AI, ChatGPT,
+and the Race that Will Change the World}. New York: MacMillan, 2024.
+
+Whitney Phillips, \textbf{This Is Why We Can't Have Nice Things: Mapping
+the Relationship between Online Trolling and Mainstream Culture}
+(Cambridge: MIT Press, 2015).
+
+Whitney Phillips and Ryan M. Milner, \textbf{You Are Here: A Field Guide
+for Navigating Polarized Speech, Conspiracy Theories, and Our Polluted
+Media Landscape} (Cambridge: MIT Press, 2021).
+
+Nicholas Proferes et al.,
+``\href{https://journals.sagepub.com/doi/epub/10.1177/20563051211019004}{Studying
+Reddit: A Systematic Overview of Disciplines, Approaches, Methods, and
+Ethics}''
+
+\href{https://allissavrichardson.com}{Allissa V. Richardson},
+\textbf{Bearing Witness While Black: African Americans, Smartphones, and
+the New Protest \#Journalism}. Oxford: Oxford University Press, 2020.
+
+Jonathan Schroeder,
+``\href{https://www.invisibleculturejournal.com/pub/snapshot-aesthetics/release/1}{Snapshot
+Aesthetics and the Strategic Imagination}''
+(\href{https://www.invisibleculturejournal.com/}{\textbf{Invisible
+Culture: A Journal for Visual Culture}}) 10 (10 April 2013)
+
+Kseniya Stsiampkouskaya et al.,
+``\href{https://journals.sagepub.com/doi/epub/10.1177/20563051211035692}{Imagined
+Audiences, Emotions, and Feedback Expectations in Social Media Photo
+Sharing}''
+
+José M. Tomasena,
+``\href{https://journals.sagepub.com/doi/epub/10.1177/2056305119894004}{Negotiating
+Collaborations: BookTubers, The Publishing Industry, and YouTube's
+Ecosystem}''
+
+\subsection{Policies}\label{policies}
+
+\textbf{Late Policy}
+
+Assignments that are late will lose 1/2 of a grade per day, beginning at
+the end of class and including weekends and holidays. This means that a
+paper, which would have received an A if it was on time, will receive a
+B+ the next day, B- for two days late, and so on. Time management,
+preparation for our meetings, and timely submission of your work
+comprise a significant dimension of your professionalism. As such, your
+work must be completed by the beginning of class on the day it is due.
+If you have a serious problem that makes punctual submission impossible,
+you must discuss this matter with me before the due date so that we can
+make alternative arrangements. Because you are given plenty of time to
+complete your work, and major due dates are given to you well in
+advance, last minute problems should not preclude handing in assignments
+on time.
+
+\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
+
+\textbf{Mandatory Reporter}
+
+Fitchburg State University is committed to providing a safe learning
+environment for all students that is free of all forms of discrimination
+and harassment. Please be aware all FSU faculty members are ``mandatory
+reporters,'' which means that if you tell me about a situation involving
+sexual harassment, sexual assault, dating violence, domestic violence,
+or stalking, I am legally required to share that information with the
+Title IX Coordinator. If you or someone you know has been impacted by
+sexual harassment, sexual assault, dating or domestic violence, or
+stalking, FSU has staff members trained to support you. If you or
+someone you know has been impacted by sexual harassment, sexual assault,
+dating or domestic violence, or stalking, please visit
+\url{http://fitchburgstate.edu/titleix} to access information about
+university support and resources.
+
+\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
+
+\textbf{Health}
+
+\href{http://www.google.com/url?q=http\%3A\%2F\%2Fwww.fitchburgstate.edu\%2Foffices-services-directory\%2Fhealth-services\%2F&sa=D&sntz=1&usg=AFQjCNEw5V0i0hL5DVO5b43gejNNaAt4ig}{Health
+Services}
+
+Hours: Monday-Friday 8:30AM-5PM Location: Ground Level of Russell Towers
+(across from the entrance of Holmes Dining Hall) Phone: (978)
+665-3643/3894
+
+\href{http://www.google.com/url?q=http\%3A\%2F\%2Fwww.fitchburgstate.edu\%2Foffices-services-directory\%2Fcounseling-services\%2F&sa=D&sntz=1&usg=AFQjCNEYiS4EmSvWerpp2bKr5lTpouPuqQ}{Counseling
+Services}
+
+The Counseling Services Office offers a range of services including
+individual, couples and group counseling, crisis intervention,
+psychoeducational programming, outreach ALTERNATIVE ECOSYSTEMSs, and
+community referrals. Counseling services are confidential and are
+offered at no charge to all enrolled students. Staff at Counseling
+Services are also available for consultation to faculty, staff and
+students. Counseling Services is located in the Hammond, 3rd Floor, Room
+317.
+
+\href{http://www.google.com/url?q=http\%3A\%2F\%2Fwww.fitchburgstate.edu\%2Foffices-services-directory\%2Ffitchburg-anti-violence-education\%2F&sa=D&sntz=1&usg=AFQjCNFi5qy-wunMxX-hoWbA9YwT8aa4Ig}{Fitchburg
+Anti-Violence Education (FAVE)}
+
+FAVE collaborates with a number of community partners (e.g., YWCA
+Domestic Violence Services, Pathways for Change) to meet our training
+needs and to link survivors with community based resources. This site
+also features
+\href{http://www.google.com/url?q=http\%3A\%2F\%2Fwww.fitchburgstate.edu\%2Foffices-services-directory\%2Ffitchburg-anti-violence-education\%2Ffitchburg-anti-violence-education-resources\%2F&sa=D&sntz=1&usg=AFQjCNF9KZ2O1AvPMLJTHdNg1DfmYYtgog}{resources}
+for help or information about dating violence, domestic violence, sexual
+assault and stalking. If you or someone you know is in an abusive
+relationship or has been a victim of sexual assault, there are many
+places to go for help. Many can be accessed 24 hours a day, seven days a
+week, 365 days a year. On campus, free and confidential support is
+provided at both Counseling Services and Health Services.
+
+\emph{Community Food Pantry} Food insecurity is a growing issue and it
+certainly can affect student learning. The ability to have access to
+nutritious food is incredibly vital. The Falcon Bazaar, located in
+Hammond G 15, is stocked with food, basic necessities, and can provide
+meal swipes to support all Fitchburg State students experiencing food
+insecurity for a day or a semester.
+
+The university continues to partner with Our Father's House to support
+student needs and access to food and services. All Fitchburg State
+University students are welcome at the Our Father's House Community Food
+Pantry. This Pantry is located at the Faith Christian Church at 40
+Boutelle St., Fitchburg, MA and is open from 5-7pm. Each ``household''
+may shop for nutritious food once per month by presenting a valid FSU
+ID.
+
+\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
+
+\textbf{Academic Integrity}
+
+The University ``Academic Integrity'' policy can be found online at
+\href{http://www.fitchburgstate.edu/offices-services-directory/office-of-student-conduct-mediation-education/academic-integrity/}{http://
+www.fitchburgstate.edu/offices-services-directory/office-of-student-conductmediation-education/academic-integrity/.}
+Students are expected to do their own work. Plagiarism and cheating are
+inexcusable. Any instance of plagiarism or cheating will automatically
+result in a zero on the assignment and may be reported the Office of
+Student and Academic Life at the discretion of the instructor.
+
+Plagiarism includes, but is not limited to: - Using papers or work from
+another class. - Using another student's paper or work from any class. -
+Copying work or a paper from the Internet. - The egregious lack of
+citing sources or documenting research.
+
+\emph{If you're not clear on what is or is not plagiarism, ASK. The BEST
+case scenario if caught is a zero on that assignment, and ignorance of
+what does or does not count is not an excuse. That being said, I'm a
+strong supporter of}
+\href{https://en.wikipedia.org/wiki/Fair_Use}{\emph{Fair Use}}
+\emph{doctrine. Just attribute what you use--and, again, ASK if there's
+any doubt.}
+
+\textbf{Americans With Disabilities Act (ADA)}
+
+\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
+
+If you need course adaptations or accommodations because of a
+disability, if you have emergency medical information to share with the
+instructor, or if you need special arrangements in case the building
+must be evacuated, please inform the faculty member as soon as possible.
+
+\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
+
+\textbf{Technology}
+
+At some point during the semester you will likely have a problem with
+technology. Your laptop will crash; your iPad battery will die; a
+recording you make will disappear; you will accidentally delete a file;
+the wireless will go down at a crucial time. These, however, are
+inevitabilities of life, not emergences. Technology problems are not
+excuses for unfinished or late work. Bad things may happen, but you can
+protect yourself by doing the following:
+
+\begin{itemize}
+\item
+  Plan ahead: A deadline is the last minute to turn in material. You can
+  start---and finish---early, particularly if challenging resources are
+  required, or you know it will be time consuming to finish this
+  project.
+\item
+  Save work early and often: Think how much work you do in 10 minutes. I
+  auto save every 2 minutes.
+\item
+  Make regular backups of files in a different location: Between Box,
+  Google Drive, Dropbox, and iCloud, you have ample places to store and
+  backup your materials. Use them.
+\item
+  Save drafts: When editing, set aside the original and work with a
+  copy.
+\item
+  Practice safe computing: On your personal devices, install and use
+  software to control viruses and malware.
+\end{itemize}
+
+\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
+
+\textbf{Grading}
+
+Grading for the course will follow the FSU grading policy below:
+
+4.0: 95-100\\
+3.7: 92-94\\
+3.5: 89-91\\
+3.3: 86-88\\
+3.0: 83-85\\
+2.7: 80-82\\
+2.5: 77-79\\
+2.3: 74-76\\
+2.0: 71-73\\
+0.0: \textless{} 70
+
+\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
+
+\textbf{Academic Resources}
+
+\href{http://www.fitchburgstate.edu/offices-services-directory/tutor-center/writing-help/}{Writing
+Center}
+
+\href{http://catalog.fitchburgstate.edu/content.php?catoid=13&navoid=851}{Academic
+Policies}
+
+\href{http://www.fitchburgstate.edu/offices-services-directory/disability-services/}{Disability
+Services}
+
+\href{https://www.getrave.com/login/fitchburgstate/}{Fitchburg State
+Alert system for emergencies, snow closures/delays, and faculty
+absences}
+
+\href{http://www.fitchburgstate.edu/offices-services-directory/career-counseling-and-advising/careerservices/}{University
+Career Services}
+
+\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
+
+
+
+
+\end{document}
