@@ -31,11 +31,11 @@ website:
   navbar:
     background: "#62259d"
     # search: true
-    # left:
-    # - text: Syllabus
-    #   file: index.qmd
-    # - text: Bibliography
-    #   file: bibliography.qmd
+    left:
+      - text: Syllabus
+        file: index.qmd
+      - text: Bibliography
+        file: bibliography.qmd
     # right:
     # - icon: envelope
     #   aria-label: envelope
