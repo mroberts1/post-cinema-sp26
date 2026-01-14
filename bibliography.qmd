@@ -9,133 +9,206 @@ bibliography: references.bib
 csl: chicago-author-date.csl
 ---
 
-## Required Texts
+## Bibliography
 
-Aleksic, Adam. 2025. *Algospeak: How Social Media Is Transforming the Future of Language*. New York: Alfred A. Knopf.
+Ackerman, Alan. "The Spirit of Toys: Resurrection and Redemption in *Toy Story* and *Toy Story 2*." *University of Toronto Quarterly* 74.4 (2005): 895-912.
 
-Fisher, Mark. *Capitalist Realism: Is There No Alternative?* Winchester, UK: Zero Books, 2009.
+Allen, Michael. "The Impact of Digital Technologies on Film Aesthetics." *Film Theory and Criticism*. 7th ed. Eds. Leo Braudy and Marshall Cohen. Oxford: Oxford UP, 2008. 824-833.
 
-Richardson, Allissa V. *Bearing Witness While Black: African Americans, Smartphones, and the New Protest #Journalism*. Oxford: Oxford University Press, 2020.
+Bazin, André. "The Ontology of the Photographic Image." Trans. Hugh Gray. *Film Quarterly* 13.4 (Summer, 1960): 4-9.
 
-## Week 1: Sites of Struggle
+Benjamin, Walter. "The Work of Art in the Age of Technical Reproduction." Trans. Harry Zohn. *Illuminations*. Ed. Hannah Arendt. New York: Schocken, 1968. 217-251.
 
-Eco, Umberto. "Towards a Semiological Guerrilla Warfare." In *Travels in Hyperreality: Essays*, translated by William Weaver, 135-144. San Diego: Harcourt Brace Jovanovich, 1986.
+_____. *The Work of Art in the Age of its Technological Reproducibility and Other Writings on Media*. Eds. Michael W. Jennings, Brigid Doherty, and Thomas Y. Levin. Cambridge, MA: Harvard UP, 2008.
 
-Welch, David. "The Conquest of the Masses." In *The Third Reich: Politics and Propaganda*, 2nd ed., 10-37. London and New York: Routledge, 1993.
+Billups, Scott. *Post-Cinema: The Age of AI*. Studio City, CA: Michael Wiese Productions, 2025.
 
-## Week 2: Ideology and the Orwellian
+Bordwell, David. "Intensified Continuity: Visual Style in Contemporary American Film." *Film Quarterly* 55.3 (2002): 16-28.
 
-Althusser, Louis. "Ideology and Ideological State Apparatuses (Notes towards an Investigation)." In *Lenin and Philosophy and Other Essays*, translated by Ben Brewster, 127-186. New York: Monthly Review Press, 1971.
+_____. "Intensified Continuity Revisited." *Observations on Film Art*. Blog post, May 27, 2007: http://www.davidbordwell.net/blog/2007/05/27/intensified-continuity-revisited/.
 
-Fisher, Mark. "It's Easier to Imagine the End of the World Than the End of Capitalism." In *Capitalist Realism: Is There No Alternative?*, 1-11. Winchester, UK: Zero Books, 2009.
+Casetti, Francesco. "The Relocation of Cinema." *NECSUS: European Journal of Media Studies* 2 (2012): http://www.necsus-ejms.org/the-relocation-of-cinema/. Rpt. in Denson and Leyda, eds. *Post-Cinema*.
 
-Fisher, Mark. "Lecture 1: What Is Postcapitalist Desire?" In *Postcapitalist Desire: The Final Lectures*, edited by Matt Colquhoun, 21-48. London: Repeater Books, 2021.
+Chateau, Dominique, and Jose Moure, *Post-Cinema: Cinema in the Post-Art Era*. Amsterdam: Amsterdam University Press, 2020.
 
-### Viewing
-*Squid Game*. Directed by Hwang Dong-hyuk. Netflix, 2021. Television series, 9 episodes.
+Chun, Wendy Hui Kyong, and Thomas Keenan, eds. *New Media, Old Media: A History and Theory Reader*. New York: Routledge, 2006.
 
-## Week 3: Simulation and Pastiche
+Corrigan, Timothy. *A Short Guide to Writing about Film*. 8th ed. London: Pearson, 2012.
 
-Friedlander, Emilie. "Social Anxiety: Why Amalia Ulman's Fake 'Middlebrow' Instagram Is No Different From Yours." *The Fader*, November 7, 2014. https://www.thefader.com/2014/11/07/social-anxiety-why-amalia-ulmans-middlebrow-instagram-feed-is-no-different-from-yours.
+Corrigan, Timothy, and Patricia White. *The Film Experience: An Introduction*. 3rd ed. Boston: Bedford/St. Martin's, 2012.
 
-Sooke, Alastair. "Is This The First Instagram Masterpiece?" *The Telegraph*, January 18, 2016. https://www.telegraph.co.uk/photography/what-to-see/is-this-the-first-instagram-masterpiece/.
+De Rosa, Miriam, and Vinzenz Hediger. "Post-What? Post-When? A Conversation on the 'Posts' of Post-Media and Post-Cinema." *Cinéma et Cie* 16.26-27 (2016): 9-20.
 
-Dazed Digital. "Amalia Ulman: Meme Come True." *Dazed Digital*, 2016. https://www.dazeddigital.com/artsandculture/article/23700/1/amalia-ulman-meme-come-true.
+Deleuze, Gilles. *Cinema 1: The Movement-Image*. Trans. Hugh Tomlinson and Barbara Habberjam. Minneapolis: U of Minnesota P, 1986.
 
-Ulman, Amalia. *Excellences & Perfections*. Instagram performance, 2014. Documentation at http://amaliaulman.eu/.
+_____. *Cinema 2: The Time-Image*. Trans. Hugh Tomlinson and Robert Galeta. Minneapolis: U of Minnesota P, 1989.
 
-### Viewing
-*El Planeta*. Directed by Amalia Ulman. Holga's Meow Pictures, 2020. Film, 79 minutes.
+_____. "Postscript on the Societies of Control." *October* 59 (1992): 3-7.
 
-*Inventing Anna*. Directed by Shonda Rhimes. Netflix, 2022. Television miniseries, Episode 6: Friends in Low Places.
+Denson, Shane. "Crazy Cameras, Discorrelated Images, and the Post-Perceptual Mediation of Post-Cinematic Affect." In Denson and Leyda, eds. *Post-Cinema*.
 
-## Week 4: Feminism/Postfeminism
+_____. "Discorrelated Images: Chaos Cinema, Post-Cinematic Affect, and Speculative Realism." Talk delivered as part of the Initiative for Interdisciplinary Media Research's film series "Chaos Cinema?" at the Leibniz University of Hannover. June 21, 2012, Hannover. Online: http://wp.me/p1xJM8-hs.
 
-Negra, Diane, and Yvonne Tasker. "Introduction: Feminist Politics and Postfeminist Culture." In *Interrogating Postfeminism: Gender and the Politics of Popular Culture*, edited by Diane Negra and Yvonne Tasker, 1-25. Durham, NC: Duke University Press, 2007.
+_____. "The Glitch as Propaedeutic to a Materialist Theory of Post-Cinematic Affect." Blog Post: http://wp.me/p1xJM8-Es.
 
-Roberts, Martin. "The Fashion Police: Governing the Self in *What Not To Wear*." In *Interrogating Postfeminism: Gender and the Politics of Popular Culture*, edited by Diane Negra and Yvonne Tasker, 227-248. Durham, NC: Duke University Press, 2007.
+_____. "The Horror of Discorrelation: Mediating Unease in Post-Cinematic Screens and Networks." *Journal of Cinema and Media Studies*, forthcoming.
 
-## Week 5: Witnessing
+_____. "Post-Cinema After Extinction." *Media Fields* 13 (2018). Online: http://mediafieldsjournal.org/post-cinema-after-extinction/.
 
-Richardson, Allissa V. "Looking As Rebellion: The Concept of Black Witnessing." In *Bearing Witness While Black: African Americans, Smartphones, and the New Protest #Journalism*, chapter 1, 18-42. Oxford: Oxford University Press, 2020.
+_____. "Speculation, Transition, and the Passing of Post-Cinema." *Cinéma et Cie* 16.26-27 (2016): 21-32.
 
-Richardson, Allissa V. "The New Protest #Journalism: Black Witnessing as Counternarrative." In *Bearing Witness While Black: African Americans, Smartphones, and the New Protest #Journalism*, chapter 3, 65-89. Oxford: Oxford University Press, 2020.
+_____. "WALL-E vs. Chaos (Cinema)." Talk delivered as part of the Initiative for Interdisciplinary Media Research's film series "Chaos Cinema?" at the Leibniz University of Hannover. July 19, 2012, Hannover. Online: http://wp.me/p1xJM8-iD.
 
-## Week 6: Tribes - Subcultures, Lifestyles, Aesthetics
+Denson, Shane, and Andreas Jahn-Sudmann. "Digital Seriality: On the Serial Aesthetics and Practices of Digital Games." *Eludamos: Journal for Computer Game Culture* 7.1 (2013): 1-32. http://www.eludamos.org/index.php/eludamos/article/view/vol7no1-1/7-1-1-pdf.
 
-Giolo, Guilherme, and Michaël Berghman. "The Aesthetics of the Self: The Meaning-Making of Internet Aesthetics." *Cultural Sociology* (2024). https://doi.org/10.1177/17499755241229570.
+Denson, Shane, and Julia Leyda, eds. *Post-Cinema: Theorizing 21st-Century Film*. Sussex: REFRAME Books, 2015.
 
-[Aesthetics Wiki](https://aesthetics.fandom.com/wiki/Aesthetics_Wiki)
+Denson, Shane, Therese Grisham, and Julia Leyda. "Post-Cinematic Affect: Post-Continuity, the Irrational Camera, Thoughts on 3D." *La Furia Umana* 14 (2012): http://bit.ly/T3Q5rs. Also available here: http://www.academia.edu/1993403/_Post-Cinematic_Affect_PostContinuity_the_Irrational_Camera_Thoughts_on_3D_. Rpt. in Denson and Leyda, eds. *Post-Cinema*.
 
-## Week 7: Fandom
+Elsaesser, Thomas. "Early Film History and Multimedia: An Archaeology of Possible Futures?" *New Media, Old Media: A History and Theory Reader*. Eds. Wendy Hui Kyong Chun and Thomas Keenan. New York: Routledge, 2006. 13-25.
 
-Baym, Nancy K. "Social Media and the Struggle for Society." *Social Media + Society* 1, no. 1 (2015): 1-2. https://doi.org/10.1177/2056305115580477.
+Elsaesser, Thomas, and Malte Hagener. *Film Theory: An Introduction through the Senses*. New York: Routledge, 2010.
 
-Baym, Nancy K., Daniel Cavicchi, and Norma Coates. "Music Fandom in the Digital Age: A Conversation." In *The Routledge Companion to Media Fandom*, edited by Melissa A. Click and Suzanne Scott, 141-152. New York: Routledge, 2018.
+Ernst, Wolfgang. *Chronopoetics: The Temporal Being and Operativity of Technological Media*. New York: Rowman & Littlefield, 2016.
 
-Tiffany, Kaitlyn. *Everything I Need I Get from You: How Fangirls Created the Internet as We Know It*. New York: Macmillan, 2022.
+Ferguson, Thomas L. "Volumetric Cinema." *[in]Transition: Journal of Videographic Film & Moving Image Studies* 2.1 (2015): http://mediacommons.futureofthebook.org/intransition/2015/03/10/volumetric-cinema.
 
-## Additional Recommended Readings
+Fisher, Mark. *Capitalist Realism*. London: Zero Books, 2009.
 
-### Semiotics and Media Theory
-Barthes, Roland. *Mythologies*. Translated by Annette Lavers. New York: Hill and Wang, 1972.
+Foucault, Michel. *Discipline and Punish: The Birth of the Prison*. New York: Vintage, 1995.
 
-Chandler, Daniel. *Semiotics: The Basics*. 3rd ed. London: Routledge, 2017.
+Friedberg, Anne. "The End of Cinema: Multimedia and Technological Change." *Reinventing Film Studies*. Ed. Christine Gledhill and Linda Williams. London: Arnold, 2000. 438–452.
 
-Hall, Stuart. "Encoding/Decoding." In *Culture, Media, Language: Working Papers in Cultural Studies, 1972-79*, edited by Stuart Hall, Dorothy Hobson, Andrew Lowe, and Paul Willis, 128-138. London: Hutchinson, 1980.
+Galloway, Alexander. *Gaming: Essays on Algorithmic Culture*. Minneapolis: U of Minnesota P, 2006.
 
-### Ideology and Cultural Studies
-Eagleton, Terry. *Ideology: An Introduction*. 2nd ed. London: Verso, 2007.
+_____. *The Interface Effect*. Cambridge: Polity, 2012.
 
-Gramsci, Antonio. *Selections from Cultural Writings*. Edited by David Forgacs and Geoffrey Nowell-Smith. Cambridge, MA: Harvard University Press, 1985.
+Golumbia, David. "High-Frequency Trading: Networks of Wealth and the Concentration of Power." *Social Semiotics* 23.2 (2013): 278-299. Pre-print: http://www.uncomputing.org/wp-content/uploads/2012/12/golumbia.high-frequency-trading.pre-pressDec2012.pdf.
 
-Williams, Raymond. *Keywords: A Vocabulary of Culture and Society*. Revised ed. New York: Oxford University Press, 1985.
+Grieb, Margit. "Run Lara Run." *ScreenPlay: Cinema/Videogames/Interfaces*. Eds. Geoff King and Tanya Krzywinska. London: Wallflower, 2002. 157-170.
 
-### Postmodernism and Simulation
-Baudrillard, Jean. *Simulacra and Simulation*. Translated by Sheila Faria Glaser. Ann Arbor: University of Michigan Press, 1994.
+Grisham, Therese, Julia Leyda, Nicholas Rombes, and Steven Shaviro. "Roundtable Discussion on the Post-Cinematic in *Paranormal Activity* and *Paranormal Activity 2*." *La Furia Umana* 10 (2011): http://www.lafuriaumana.it/index.php?option=com_content&view=article&id=385:roundtable-discussion-about-post-cinematic&catid%20=59:la-furia-umana-nd-10-autumn-2011&Itemid=61. Also available here: http://www.academia.edu/966735/Roundtable_Discussion_about_the_PostCinematic_in_Paranormal_Activity_and_Paranormal_Activity_2. Rpt. in Denson and Leyda, eds. *Post-Cinema*.
 
-Jameson, Fredric. *Postmodernism, or, The Cultural Logic of Late Capitalism*. Durham, NC: Duke University Press, 1991.
+Grusin, Richard. "DVDs, Video Games, and the Cinema of Interactions." *Multimedia Histories: From the Magic Lantern to the Internet*. Eds. James Lyons and John Plunkett. Exeter: U of Exeter P, 2007. 209-221. Rpt. in Denson and Leyda, eds. *Post-Cinema*.
 
-Lyotard, Jean-François. *The Postmodern Condition: A Report on Knowledge*. Translated by Geoff Bennington and Brian Massumi. Minneapolis: University of Minnesota Press, 1984.
+Gurevitch, Leon. "Cinema Designed: Visual Effects Software and the Emergence of the Engineered Spectacle." In Denson and Leyda, eds. *Post-Cinema*.
 
-### Digital Culture and Social Media
-boyd, danah. *It's Complicated: The Social Lives of Networked Teens*. New Haven: Yale University Press, 2014.
+Hansen, Mark B.N. "Algorithmic Sensibility: Reflections on the Post-Perceptual Image." In Denson and Leyda, eds. *Post-Cinema*.
 
-Jenkins, Henry. *Participatory Culture: Interviews*. Cambridge: Polity Press, 2019.
+_____. *Bodies in Code: Interfaces with Digital Media*. New York: Routledge, 2006.
 
-Marwick, Alice E. *Status Update: Celebrity, Publicity, and Branding in the Social Media Age*. New Haven: Yale University Press, 2013.
+_____. "Living (with) Technical Time: From Media Surrogacy to Distributed Cognition." *Theory, Culture & Society* 26 (2-3): 294-315.
 
-Tufekci, Zeynep. *Twitter and Tear Gas: The Power and Fragility of Networked Protest*. New Haven: Yale University Press, 2017.
+_____. "Media Theory." *Theory, Culture & Society* 23 (2-3): 297-306.
 
-### Feminism and Gender Studies
+_____. "New Media." *Critical Terms for Media Studies*. Eds. W.J.T. Mitchell and Mark B.N. Hansen. Chicago and London: U of Chicago P, 2010. 172-185.
 
-Butler, Judith. *Gender Trouble: Feminism and the Subversion of Identity*. New York: Routledge, 1990.
+_____. *New Philosophy for New Media*. Cambridge, MA: MIT, 2004.
 
-hooks, bell. *Feminism Is for Everybody: Passionate Politics*. Cambridge, MA: South End Press, 2000.
+_____. "Ubiquitous Sensation: Toward an Atmospheric, Collective, and Microtemporal Model of Media." *Throughout: Art and Culture Emerging with Ubiquitous Computing*. Ed. Ulrik Ekman. Cambridge: MIT, 2013. 63-88.
 
-McRobbie, Angela. *The Aftermath of Feminism: Gender, Culture and Social Change*. London: Sage, 2009.
+Hoberman, J. *Film after Film: Or, What Became of 21st Century Film?* London: Verso, 2012.
 
-Mulvey, Laura. "Visual Pleasure and Narrative Cinema." *Screen* 16, no. 3 (1975): 6-18.
+Huhtamo, Erkki, and Jussi Parikka, eds., *Media Archaeology: Approaches, Applications, and Implications*. Berkeley: U of California P, 2011.
 
-### Race and Media
+Ivakhiv, Adrian. "The Art of Morphogenesis: Cinema in and beyond the Capitalocene." In Denson and Leyda, eds. *Post-Cinema*.
 
-Bonilla, Yarimar, and Jonathan Rosa. "#Ferguson: Digital Protest, Hashtag Ethnography, and the Racial Politics of Social Media in the United States." *American Ethnologist* 42, no. 1 (2015): 4-17.
+_____. *Ecologies of the Moving Image: Cinema, Affect, Nature*. Waterloo: Wilfrid Laurier UP, 2013.
 
-Gray, Herman. *Watching Race: Television and the Struggle for Blackness*. Minneapolis: University of Minnesota Press, 2004.
+Jameson, Fredric. *Postmodernism, Or, The Cultural Logic of Late Capitalism*. Durham: Duke UP, 1991.
 
-Noble, Safiya Umoja. *Algorithms of Oppression: How Search Engines Reinforce Racism*. New York: NYU Press, 2018.
+Jenkins, Henry. *Convergence Culture: Where Old and New Media Collide*. New York and London: New York UP, 2006.
 
-### Subcultures and Fan Studies
-Hebdige, Dick. *Subculture: The Meaning of Style*. London: Routledge, 1979.
+Kara, Selmin. "Anthropocenema: Cinema in the Age of Mass Extinctions." In Denson and Leyda, eds. *Post-Cinema*.
 
-Jenkins, Henry. *Textual Poachers: Television Fans and Participatory Culture*. 2nd ed. New York: Routledge, 2012.
+Kittler, Friedrich. "Computer Graphics: A Semi-Technical Introduction." *Grey Room* 2 (2001): 30-45.
 
-Thornton, Sarah. *Club Cultures: Music, Media, and Subcultural Capital*. Middletown, CT: Wesleyan University Press, 1996.
+_____. *Gramophone, Film, Typewriter*. Stanford: Stanford UP, 1999.
 
-## Filmography
+Krapp, Peter. *Noise Channels: Glitch and Error in Digital Culture*. Minneapolis: U of Minesota P, 2011.
 
-*El Planeta*. Directed by Amalia Ulman. Holga's Meow Pictures, 2020. Film, 79 minutes.
+Lazzarato, Maurizio. "Immaterial Labor." *Radical Thought in Italy: A Potential Politics*. Eds. Paolo Virno and Michael Hardt. Minneapolis: U of Minnesota P, 1996. 133-147.
 
-*Inventing Anna*. Directed by Shonda Rhimes. Netflix, 2022. Television miniseries.
+_____. "Machines to Crystalize Time: Bergson." *Theory, Culture & Society* 24.6 (2007): 93-122.
 
-*Squid Game*. Directed by Hwang Dong-hyuk. Netflix, 2021. Television series, 9 episodes.
+Leyda, Julia. "Demon Debt: *Paranormal Activity* as Recessionary Post-Cinematic Allegory." *Jump Cut: A Review of Contemporary Media* 56 (2014-15): http://www.ejumpcut.org/currentissue/LeydaParanormalActivity/. Rpt. in Denson and Leyda, eds. *Post-Cinema*.
+
+Manovich, Lev. *The Language of New Media*. Cambridge, MA: MIT Press, 2001.
+
+_____. "What is Digital Cinema?" Online at the author's website: http://www.manovich.net/TEXT/digital-cinema.html.
+
+Marshall, P., ed. *The Celebrity Culture Reader*. New York: Routledge, 2006.
+
+Massumi, Brian. *Parables for the Virtual: Movement, Affect, Sensation*. Durham: Duke UP, 2002.
+
+McLuhan, Marshall. *Understanding Media: The Extensions of Man*. London and New York: Routledge, 1964.
+
+Mitchell, W. J. T. "Realism and the Digital Image." *Critical Realism in Contemporary Art*. Eds. Hilde van Gelder & Jan Baetens. Leuven: Leuven UP. 13-27.
+
+Mitchell, W.J.T., and Mark B.N. Hansen, eds. *Critical Terms for Media Studies*. Chicago and London: U of Chicago P, 2010.
+
+Monnet, Livia. "A-Life and the Uncanny in *Final Fantasy: The Spirits Within*." *Science Fiction Studies* 31.1 (2004): 97-121.
+
+Moulier Boutang, Yann. *Cognitive Capitalism*. Cambridge: Polity, 2011.
+
+Nanicelli, Ted, and Malcolm Turvey. "Against Post-Cinema." *Cinéma et Cie* 16.26-27 (2016): 33-43.
+
+Nunes, Mark, ed. *Error: Glitch, Noise, and Jam in New Media Cultures*. New York: Bloomsbury, 2011.
+
+Palmer, Lorrie. "Cranked Masculinity: Hypermediation in Digital Action Cinema." *Cinema Journal* 51.4 (2012): 1-25.
+
+Parikka, Jussi. *A Geology of Media*. Minneapolis: U of Minnesota P, 2015.
+
+_____. *What is Media Archaeology?* Cambridge: Polity, 2012.
+
+Pasquinelli, Matteo. "Google's PageRank Algorithm: A Diagram of Cognitive Capitalism and the Rentier of the Common Intellect." *Deep Search: The Politics of Search Beyond Google*. Eds. Konrad Becker and Felix Stalder. Innsbruck: Studienverlag, 2009. 152-162. Author's repository: http://matteopasquinelli.com/docs/Pasquinelli_PageRank.pdf.
+
+Pisters, Patricia. "Flash-Forward: The Future is Now." In Denson and Leyda, eds. *Post-Cinema*.
+
+_____. *The Neuro-Image: A Deleuzian Filmphilosophy of Digital Screen Culture*. Stanford: Stanford UP, 2012.
+
+Prince, Stephen. "True Lies: Perceptual Realism, Digital Images, and Film Theory." *Film Quarterly* 49.3: 27-37.
+
+Rambo, David. "The Error-Image: On the Technics of Memory." In Denson and Leyda, eds. *Post-Cinema*.
+
+Rodowick, D. N. *Gilles Deleuze's Time Machine*. Durham: Duke UP, 1997.
+
+_____. *The Virtual Life of Film*. Cambridge: Harvard UP, 2007.
+
+Rombes, Nicholas. *Cinema in the Digital Age*. New York: Wallflower P, 2009.
+
+Rust, Stephen, Salma Monani, and Sean Cubitt, eds. *Ecocinema Theory and Practice*. New York: Routledge, 2012.
+
+Shaviro, Steven. *The Cinematic Body*. Minneapolis: U of Minnesota P, 1993.
+
+_____. *Connected: Or What it Means to Live in the Network Society*. Minneapolis: U of Minnesota P, 2003.
+
+_____. Steven Shaviro, "Melancholia or, the Romantic Anti-Sublime." *Sequence* 1.1 (2012): http://reframe.sussex.ac.uk/sequence1/1-1-melancholia-or-the-romantic-anti-sublime/.
+
+_____. *Post-Cinematic Affect*. Winchester, UK: Zero Books, 2010.
+
+_____. "Post-Cinematic Affect: On Grace Jones, *Boarding Gate* and *Southland Tales*." *Film-Philosophy* 14.1 (2010): 1-102.
+
+Siegert, Bernhard. *Cultural Techniques: Grids, Filters, Doors, and Other Articulations of the Real*. New York: Fordham University Press, 2015.
+
+Sobchack, Vivian. *The Address of the Eye: A Phenomenology of Film Experience*. Princeton: Princeton UP, 1992.
+
+_____. "The Scene of the Screen: Envisioning Photographic, Cinematic, and Electronic 'Presence'." *Carnal Thoughts: Embodiment and Moving Image Culture*. Berkeley and Los Angeles: U of California P, 2004. 135-162.
+
+Steyerl, Hito. *The Wretched of the Screen*. Berlin: Sternberg Press, 2012.
+
+Stork, Matthias. "[Chaos Cinema](http://blogs.indiewire.com/pressplay/matthias-stork-chaos-cinema-part-3#)." Video essay in three parts.
+
+Strauven, Wanda, ed. *The Cinema of Attractions Reloaded*. Amsterdam: Amsterdam UP, 2006.
+
+Sudmann, Andreas. "Bullet Time and the Mediation of Post-Cinematic Temporality." In Denson and Leyda, eds. *Post-Cinema*.
+
+Telotte, J. P. *Animating Space: From Mickey to WALL-E*. Lexington: UP of Kentucky, 2010.
+
+Tofts, Darren. "Truth at Twelve Thousand Frames per Second: *The Matrix* and Time-Image Cinema." *24/7: Time and Temporality in the Network Society*. Eds. Robert Hassan and Ronald E. Purser. Stanford: Stanford UP, 2007. 109-121.
+
+Tryon, Chuck. *Reinventing Cinema: Movies in the Age of Media Convergence*. Piscataway, NJ: Rutgers UP, 2009.
+
+Wark, McKenzie. *Gamer Theory*. Cambridge: Harvard UP, 2007. Version 2.0 available online: http://www.futureofthebook.org/gamertheory2.0/.
+
+Willis, Holly. *Fast Forward: The Future(s) of the Cinematic Arts*. New York and London: Wallflower Press, 2016.

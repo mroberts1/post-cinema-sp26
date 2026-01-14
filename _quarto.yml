@@ -6,24 +6,24 @@ project:
 website:
   title: "    "
   bread-crumbs: false
-  site-url: https://mroberts1.github.io/digital-culture-fa25/
+  site-url: https://mroberts1.github.io/post-cinema-sp26/
   # twitter-card:
   #   creator: "@mroberts_vma"
   #   card-style: summary_large_image
   favicon: "/img/cropped-cropped-flourish-1-270x270.gif"
   margin-header: |
     ![](/img/Emerson-PrimaryLogo-Reversed-Color-400px.png){width="50%"}
-  sidebar:
-    search: false
-    style: "floating"
-    collapse-level: 0
-    contents:
-        - section: "Topics"
-          contents:
-            - text: Fandom
-              file: w2-fandom.qmd
-            - text: BookTok
-              file: bookish.qmd
+  # sidebar:
+  #   search: false
+  #   style: "floating"
+  #   collapse-level: 0
+  #   contents:
+  #       - section: "Topics"
+  #         contents:
+  #           - text: Fandom
+  #             file: w2-fandom.qmd
+  #           - text: BookTok
+  #             file: bookish.qmd
         # - section: "Resources"
         #   contents:
         #     - text: Key Concepts
@@ -71,6 +71,8 @@ format:
     linkcolor: "#62259d"
     title-block-banner: false
   #PrettyPDF-pdf: default
+lightbox:
+  match: auto
 fig-responsive: true
 image-alt: " "
 execute:
