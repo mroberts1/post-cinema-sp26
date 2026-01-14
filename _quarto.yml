@@ -32,6 +32,8 @@ website:
     background: "#62259d"
     # search: true
     left:
+      - text: Home
+        file: index.qmd
       - text: Bibliography
         file: bibliography.qmd
     # right:
