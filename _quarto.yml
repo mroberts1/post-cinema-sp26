@@ -32,8 +32,6 @@ website:
     background: "#62259d"
     # search: true
     left:
-      - text: Syllabus
-        file: index.qmd
       - text: Bibliography
         file: bibliography.qmd
     # right:

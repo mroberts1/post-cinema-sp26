@@ -1,16 +1,10 @@
 ---
-title: "    "
-format:
-  html:
-    toc: true
-    toc-depth: 2
-    toc-title: "Sections"
+title: "Bibliography"
 bibliography: references.bib
 csl: chicago-author-date.csl
 ---
 
-## Bibliography
-
+<br><br>
 Ackerman, Alan. "The Spirit of Toys: Resurrection and Redemption in *Toy Story* and *Toy Story 2*." *University of Toronto Quarterly* 74.4 (2005): 895-912.
 
 Allen, Michael. "The Impact of Digital Technologies on Film Aesthetics." *Film Theory and Criticism*. 7th ed. Eds. Leo Braudy and Marshall Cohen. Oxford: Oxford UP, 2008. 824-833.

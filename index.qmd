@@ -14,7 +14,7 @@ Wed 14 Jan---Wed 29 April 2026\
 14:00-17:45\
 [Dr. Martin Roberts](http://mroberts1.github.io/)\
 Office Hour: TBA\
-[YouTube Playlist](https://www.youtube.com/playlist?list=PL3uFXkpHLYM6EmE6yxN-NcYVFqoOnPGzR)\
+[YouTube playlist](https://www.youtube.com/playlist?list=PL3uFXkpHLYM6EmE6yxN-NcYVFqoOnPGzR)\
 [{{< fa regular envelope >}}](mailto:martin_roberts@emerson.edu) \| [{{< fa brands mastodon >}}](https://merveilles.town/@dokoissho) \| [{{< fa brands github >}}](https://github.com/mroberts1/) \| [{{< fa brands twitter >}}](https://twitter.com/mroberts_vma)\
 :::
 
