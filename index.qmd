@@ -33,8 +33,11 @@ This is primarily a critical-thinking course, although it includes a practical a
 <!-- By the end of the course, students will: -->
 
 <!-- -   have acquired a deeper understanding of the social, cultural, and political dimensions of digital technologies and networked communication; -->
+
 <!-- -   be able to apply critical thinking to contemporary developments in digital culture using relevant analytical concepts and both qualitative and quantitative methodologies such as cultural analytics; -->
+
 <!-- -   understand basic principles of algorithmic image synthesis on a variety of platforms; -->
+
 <!-- -   have reflected upon and discussed the larger significance of machine learning systems within global networked societies. -->
 
 ## Course Texts
@@ -93,12 +96,10 @@ As an alternative to a research paper, you may submit a creative project. If so,
 -   [*The Definition of Film*](https://www.richardmisek.com/the-definition-of-film) (Richard Misek, 2015)
 -   [*Film*](https://youtu.be/lefvPUYGvi0) (Tacita Dean, 2011)
 
-::: {.column-margin}
-
+::: column-margin
 {{< video https://vimeo.com/128097765?fl=pl&fe=sh >}}
 
 {{< video https://youtu.be/lefvPUYGvi0 >}}
-
 :::
 
 ------------------------------------------------------------------------
@@ -146,9 +147,9 @@ As an alternative to a research paper, you may submit a creative project. If so,
 
 **The Post-Cinematic**
 
--   Shane Denson and Julia Leyda, "Perspectives on Post-Cinema: An Introduction"
--   Steven Shaviro, "Post-Continuity: An Introduction"
--   Steven Shaviro, "Post-Cinematic Affect"
+-   Shane Denson and Julia Leyda, “[Perspectives on Post-Cinema: An Introduction](https://reframe.sussex.ac.uk/post-cinema/introduction/)”
+-   Steven Shaviro, “[Post-Continuity: An Introduction](https://reframe.sussex.ac.uk/post-cinema/1-2-shaviro/)”
+-   Steven Shaviro, "[Introduction](pdf/shaviro-postcinematic-affect.pdf)" (*Post-Cinematic Affect*)
 
 Watch: *Boarding Gate*
 
@@ -160,7 +161,7 @@ Watch: *Boarding Gate*
 
 **The Rhythm Image**
 
--   Steven Shaviro,"The Rhythm Image" (from *The Rhythm Image*)
+-   Steven Shaviro,"[The Rhythm Image](pdf/shaviro-rhythm-image-intro.pdf)" (from *The Rhythm Image*)
 
 See also: Steven Shaviro, [*Out of Whack: The Aberrant Identity of Tierra Whack*](https://flugschriften.com/wp-content/uploads/2018/12/Flugschriften-1-Steven-Shaviro-Out-of-Whack-1.pdf) (*Flückschriften*, 2016)
 
@@ -195,10 +196,8 @@ Music videos by Chemical Brothers, Lorde, Michel Gondry
 
 **Volumetric Cinema**
 
-::: {.column-margin}
-
+::: column-margin
 {{< video https://vimeo.com/119790662 >}}
-
 :::
 
 -   Holly Willis, "New Practices / New Paradigms" (in *Fast Forward: The Future(s) of the Cinematic Arts*)
