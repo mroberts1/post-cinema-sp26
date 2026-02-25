@@ -175,7 +175,7 @@ Music videos by Chemical Brothers, Lorde, Michel Gondry
 
 **Visual Music**
 
--   Steve Gibson, "Introduction: The Long History of Moving Images Becoming Alive" (in *Live Visuals: History, Theory, Practice*)
+-   Steve Gibson, "[Introduction: The Long History of Moving Images Becoming Alive](pdf/live-visuals-intro.pdf)" (in *Live Visuals: History, Theory, Practice*)
 -   [*Audioreactive*](https://mroberts1.github.io/audioreactive) (blog)
 
 ------------------------------------------------------------------------
