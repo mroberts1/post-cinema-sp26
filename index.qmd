@@ -15,6 +15,7 @@ Wed 14 Jan---Wed 29 April 2026\
 [Dr. Martin Roberts](http://mroberts1.github.io/)\
 Office Hour: TBA\
 [YouTube playlist](https://www.youtube.com/playlist?list=PL3uFXkpHLYM6EmE6yxN-NcYVFqoOnPGzR)\
+[YouTube playlist - student](https://youtube.com/playlist?list=PL3uFXkpHLYM4Y01MlQrbOY8c59AW3t5Gb&si=q3qC80RAbX03pjx7)\
 [{{< fa regular envelope >}}](mailto:martin_roberts@emerson.edu) \| [{{< fa brands mastodon >}}](https://merveilles.town/@dokoissho) \| [{{< fa brands github >}}](https://github.com/mroberts1/) \| [{{< fa brands twitter >}}](https://twitter.com/mroberts_vma)\
 :::
 
@@ -124,19 +125,13 @@ As an alternative to a research paper, you may submit a creative project. If so,
 **Social Media & Internet Movies**
 
 -   [*The Rise of Film TikTok*](https://youtu.be/iqajurNSp1Q) (Queline Meadows, 2020)
-
 -   [On Your Screen #3 - The Rise of Film TikTok](https://youtu.be/AYR*oH3YNRM) \[podcast\]
-
 -   [*Criticism in the Age of TikTok*](https://youtu.be/uy8fgjghCQI) (Charlie Shackleton, 2019)
-
 -   Jason Kehe, “[The TikTok-Tailored Terpsichorean Trauma of *Encanto*](https://www.wired.com/story/disney-encanto-twerks-too-hard/)”
-
 -   Yasmin Tayag, “[*Cocaine Bear*: Why?](https://www.theatlantic.com/science/archive/2022/12/cocaine-bear-movie-animal-horror-appeal/672366/)”
-
 -   Angela Watercutter, “[*Cocaine Bear* and the New Age of Internet Movies](https://www.wired.com/story/new-era-internet-movies/)”
-
--   Marah Eakin, “[*Bodies Bodies Bodies* Is a Slasher Movie for the Extremely Online](https://www.wired.com/story/bodies-bodies-bodies-is-a-slasher-movie-for-the-extremely-online/)” - David Sims, “[*M3GAN*’s Killer-Robot Doll Is Just What 2023 Needs](https://www.theatlantic.com/culture/archive/2023/01/m3gan-horror-movie-review/672672/)”
-
+-   Marah Eakin, “[*Bodies Bodies Bodies* Is a Slasher Movie for the Extremely Online](https://www.wired.com/story/bodies-bodies-bodies-is-a-slasher-movie-for-the-extremely-online/)”
+-   David Sims, “[*M3GAN*’s Killer-Robot Doll Is Just What 2023 Needs](https://www.theatlantic.com/culture/archive/2023/01/m3gan-horror-movie-review/672672/)”
 -   Angela Watercutter, “[The *M3GAN* Dance Meme: Vicious Dolls Could Dominate 2023](https://www.wired.com/story/m3gan-meme-twitter-tiktok-beyonce-megan-thee-stallion/)”
 
 ------------------------------------------------------------------------
@@ -173,10 +168,7 @@ Music videos by Chemical Brothers, Lorde, Michel Gondry
 
 02-18-26_Wed
 
-**Visual Music**
-
--   Steve Gibson, "[Introduction: The Long History of Moving Images Becoming Alive](pdf/live-visuals-intro.pdf)" (in *Live Visuals: History, Theory, Practice*)
--   [*Audioreactive*](https://mroberts1.github.io/audioreactive) (blog)
+NO CLASS (Monday schedule)
 
 ------------------------------------------------------------------------
 
@@ -184,15 +176,45 @@ Music videos by Chemical Brothers, Lorde, Michel Gondry
 
 02-25-26_Wed
 
-**Bullet Time**
+**Visual Music**
 
--   Andreas Sudmann, "Bullet Time and the Mediation of Post-Cinematic Temporality" (in Denson and Leyda, eds., *Post-Cinema*)
+-   Steve Gibson, "[Introduction: The Long History of Moving Images Becoming Alive](pdf/live-visuals-intro.pdf)" (in *Live Visuals: History, Theory, Practice*)
+-   [Interview with Greg Hermanovic](pdf/greg-hermanovic-interview.pdf)  (TouchDesigner) (in *Live Visuals: History, Theory, Practice*)
+-   [*Audioreactive*](https://mroberts1.github.io/audioreactive) (blog)
+-   [*Audioreactive Playhead - Test*](https://emerson.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=b473f95a-c71e-4b26-bea7-b3fc0130fd5d) (MR)
 
 ------------------------------------------------------------------------
 
 *Week 8*
 
 03-04-26_Wed
+
+**Live Cinema**
+
+-   [Interview with Christopher Thomas Allen](pdf/light-surgeons-interview.pdf) (in *Live Visuals: History, Theory, Practice*)
+-   The Light Surgeons, [SuperEverything](http://supereverything.net/the-light-surgeons/)
+-   Martin Roberts, "[Moving Targets: Object Detection and Algorithmic Aesthetics](https://mroberts1.github.io/moving-targets/)"
+-   Holly Willis, "[Live Cinema](pdf/willis-live-cinema.pdf)" (in *Fast Forward: The Future(s) of the Cinematic Arts*)
+
+------------------------------------------------------------------------
+
+SPRING BREAK
+
+------------------------------------------------------------------------
+
+*Week 9*
+
+03-18-26_Wed
+
+**Bullet Time**
+
+-   Andreas Sudmann, "[Bullet Time and the Mediation of Post-Cinematic Temporality](https://reframe.sussex.ac.uk/post-cinema/3-2-sudmann/)" (in Denson and Leyda, eds., *Post-Cinema*)
+
+------------------------------------------------------------------------
+
+*Week 10*
+
+03-25-26_Wed
 
 **Volumetric Cinema**
 
@@ -211,13 +233,9 @@ Watch: [Volumetric Cinema](https://vimeo.com/119790662) (Kevin L. Ferguson)
 
 ------------------------------------------------------------------------
 
-SPRING BREAK
+*Week 11*
 
-------------------------------------------------------------------------
-
-*Week 9*
-
-03-18-26_Wed
+04-01-26_Wed
 
 **Ecocinema**
 
@@ -226,20 +244,9 @@ SPRING BREAK
 
 ------------------------------------------------------------------------
 
-*Week 10*
+*Week 12*
 
-03-25-26_Wed
-
-**Live Cinema**
-
--   Holly Willis, "Live Cinema" (in *Fast Forward: The Future(s) of the Cinematic Arts*)
--   The Light Surgeons
-
-------------------------------------------------------------------------
-
-*Week 11*
-
-04-01-26_Wed
+04-08-26_Wed
 
 **Ephemeral Cinema**
 
@@ -247,14 +254,6 @@ Maria Vélez-Serna, *Ephemeral Cinema Spaces: Stories of Reinvention, Resistance
 
 -   "Introduction"
 -   "Unstable constellations: recognizing cinema out of place" (ch. 1)
-
-------------------------------------------------------------------------
-
-*Week 12*
-
-04-08-26_Wed
-
-**Ambient Cinema**
 
 ------------------------------------------------------------------------
 
