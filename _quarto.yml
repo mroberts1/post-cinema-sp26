@@ -51,7 +51,7 @@ website:
     #   href: https://twitter.com/mroberts_vma
 format: 
   html:
-    toc: false
+    toc: true
     toc-depth: 3  
     toc-location: left
     toc-title: '   '
@@ -65,7 +65,7 @@ format:
         margin-width: 300px
         gutter-width: 1em
     # page-layout: article
-    fontsize: 1.1em
+    fontsize: 1em
     linestretch: 1.5
     smooth-scroll: true
     linkcolor: "#62259d"
