@@ -179,7 +179,7 @@ NO CLASS (Monday schedule)
 **Visual Music**
 
 -   Steve Gibson, "[Introduction: The Long History of Moving Images Becoming Alive](pdf/live-visuals-intro.pdf)" (in *Live Visuals: History, Theory, Practice*)
--   [Interview with Greg Hermanovic](pdf/greg-hermanovic-interview.pdf)  (TouchDesigner) (in *Live Visuals: History, Theory, Practice*)
+-   [Interview with Greg Hermanovic](pdf/greg-hermanovic-interview.pdf) (TouchDesigner) (in *Live Visuals: History, Theory, Practice*)
 -   [*Audioreactive*](https://mroberts1.github.io/audioreactive) (blog)
 -   [*Audioreactive Playhead - Test*](https://emerson.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=b473f95a-c71e-4b26-bea7-b3fc0130fd5d) (MR)
 
@@ -209,6 +209,7 @@ SPRING BREAK
 **Bullet Time**
 
 -   Andreas Sudmann, "[Bullet Time and the Mediation of Post-Cinematic Temporality](https://reframe.sussex.ac.uk/post-cinema/3-2-sudmann/)" (in Denson and Leyda, eds., *Post-Cinema*)
+-   Will Porter, "[A videogame history of bullet-time](https://www.gamesradar.com/a-videogame-history-of-bullet-time/)" (*gamesradar*, 1 September 2010)
 
 ------------------------------------------------------------------------
 
@@ -255,6 +256,8 @@ Maria Vélez-Serna, *Ephemeral Cinema Spaces: Stories of Reinvention, Resistance
 -   "Introduction"
 -   "Unstable constellations: recognizing cinema out of place" (ch. 1)
 
+**Deadline: 3DGS Project**  
+
 ------------------------------------------------------------------------
 
 *Week 13*
@@ -286,6 +289,8 @@ Watch: *We Met in Virtual Reality*
 04-29-26_Wed
 
 **Conclusion**
+
+**Deadline: Research Paper / Video Essay**
 
 05-01-26_Fri **Last day of classes**
 
