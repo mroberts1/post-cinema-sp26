@@ -65,7 +65,8 @@ Elsaesser, Thomas, and Malte Hagener. *Film Theory: An Introduction through the 
 
 Ernst, Wolfgang. *Chronopoetics: The Temporal Being and Operativity of Technological Media*. New York: Rowman & Littlefield, 2016.
 
-Ferguson, Thomas L. "Volumetric Cinema." *[in]Transition: Journal of Videographic Film & Moving Image Studies* 2.1 (2015): http://mediacommons.futureofthebook.org/intransition/2015/03/10/volumetric-cinema.
+Ferguson, Kevin L. "Volumetric Cinema." *[in]Transition: Journal of Videographic Film & Moving Image Studies* 2.1 (2015): http://mediacommons.futureofthebook.org/intransition/2015/03/10/volumetric-cinema.
+---. “[Volumetric Cinema](pdf/ferguson-volumetric-cinema.pdf).” In *Debates in the Digital Humanities 2016*, edited by Matthew K. Gold and Lauren F. Klein, 335–49. Minneapolis: University of Minnesota Press, 2016.
 
 Fisher, Mark. *Capitalist Realism*. London: Zero Books, 2009.
 
