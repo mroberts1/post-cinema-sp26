@@ -22,8 +22,8 @@ Office Hour: TBA\
 ::::
 
 :::: {.content-visible when-format="pdf"}
-::: {layout-ncol=2 layout-valign="top"}
-![](img/TimeStretched_25.jpg){width=100%}
+::: {layout="[[49, -2, 49]]"}
+![](img/TimeStretched_25.jpg)
 
 VM300-03  
 [Department of Visual & Media Arts](https://emerson.edu/academics/academic-departments/visual-media-arts)  
