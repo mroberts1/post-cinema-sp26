@@ -23,8 +23,7 @@ Office Hour: TBA\
 
 :::: {.content-visible when-format="pdf"}
 ::: {layout="[[49, -2, 49]]"}
-![](img/TimeStretched_25.jpg)
-
+![](img/TimeStretched_46.jpg)  
 VM300-03  
 [Department of Visual & Media Arts](https://emerson.edu/academics/academic-departments/visual-media-arts)  
 [Emerson College](https://emerson.edu/)  
@@ -35,7 +34,8 @@ Wed 14 Jan---Wed 29 April 2026
 Office Hour: TBA  
 [YouTube playlist](https://www.youtube.com/playlist?list=PL3uFXkpHLYM6EmE6yxN-NcYVFqoOnPGzR)  
 [YouTube playlist - student](https://youtube.com/playlist?list=PL3uFXkpHLYM4Y01MlQrbOY8c59AW3t5Gb&si=q3qC80RAbX03pjx7)  
-[{{< fa regular envelope >}}](mailto:martin_roberts@emerson.edu) \| [{{< fa brands mastodon >}}](https://merveilles.town/@dokoissho) \| [{{< fa brands github >}}](https://github.com/mroberts1/) \| [{{< fa brands twitter >}}](https://twitter.com/mroberts_vma)\\  
+[{{< fa regular envelope >}}](mailto:martin_roberts@emerson.edu) \| [{{< fa brands mastodon >}}](https://merveilles.town/@dokoissho) \| [{{< fa brands github >}}](https://github.com/mroberts1/) \| [{{< fa brands twitter >}}](https://twitter.com/mroberts_vma)\ 
+
 :::
 ::::
 
