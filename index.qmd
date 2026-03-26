@@ -3,9 +3,10 @@ title: "Cinema After Cinema"
 subtitle: "Afterlives of a Global Cultural Form in the Post-Cinematic Age"
 ---
 
-![](img/TimeStretched_46.jpg){.lightbox}
+:::: {.content-visible when-format="html"}
+![](gif/time-stretched1.gif)
 
-::: column-margin
+::: {.column-margin}
 VM300-03\
 [Department of Visual & Media Arts](https://emerson.edu/academics/academic-departments/visual-media-arts)\
 [Emerson College](https://emerson.edu/)\
@@ -18,8 +19,27 @@ Office Hour: TBA\
 [YouTube playlist - student](https://youtube.com/playlist?list=PL3uFXkpHLYM4Y01MlQrbOY8c59AW3t5Gb&si=q3qC80RAbX03pjx7)\
 [{{< fa regular envelope >}}](mailto:martin_roberts@emerson.edu) \| [{{< fa brands mastodon >}}](https://merveilles.town/@dokoissho) \| [{{< fa brands github >}}](https://github.com/mroberts1/) \| [{{< fa brands twitter >}}](https://twitter.com/mroberts_vma)\
 :::
+::::
 
-<small></small> <!-- <small>Image: Nicholas Conrad / *The New Yorker* </small> -->
+:::: {.content-visible when-format="pdf"}
+::: {layout-ncol=2 layout-valign="top"}
+![](img/TimeStretched_25.jpg){width=100%}
+
+VM300-03  
+[Department of Visual & Media Arts](https://emerson.edu/academics/academic-departments/visual-media-arts)  
+[Emerson College](https://emerson.edu/)  
+Spring Semester 2026  
+Wed 14 Jan---Wed 29 April 2026  
+14:00-17:45  
+[Dr. Martin Roberts](http://mroberts1.github.io/)\\  
+Office Hour: TBA  
+[YouTube playlist](https://www.youtube.com/playlist?list=PL3uFXkpHLYM6EmE6yxN-NcYVFqoOnPGzR)  
+[YouTube playlist - student](https://youtube.com/playlist?list=PL3uFXkpHLYM4Y01MlQrbOY8c59AW3t5Gb&si=q3qC80RAbX03pjx7)  
+[{{< fa regular envelope >}}](mailto:martin_roberts@emerson.edu) \| [{{< fa brands mastodon >}}](https://merveilles.town/@dokoissho) \| [{{< fa brands github >}}](https://github.com/mroberts1/) \| [{{< fa brands twitter >}}](https://twitter.com/mroberts_vma)\\  
+:::
+::::
+
+<small>Image: Anton Repponen, *Time Stretched No. 25* (2025)</small>
 
 ## Overview
 
