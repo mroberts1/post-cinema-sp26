@@ -29,6 +29,21 @@
 @import url('https://fonts.googleapis.com/css2?family=Syne:wght@400..800&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Offside&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Gilda+Display:wght@400;700&display=swap');
+@font-face {
+  font-family: "RoobertTRIAL";
+  src: url("fonts/roobert-font-family/RoobertTRIALVF-BF67243fd545701.ttf") format("truetype");
+  font-weight: 100 1000;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "RoobertTRIAL";
+  src: url("fonts/roobert-font-family/RoobertTRIALVF-BF67243fd545701.ttf") format("truetype");
+  font-weight: 100 1000;
+  font-style: italic;
+  font-display: swap;
+}
 
 // use Atkinson Hyperlegible font if available
 //$font-family-sans-serif:  "DM Sans", "Roboto", "proxima-nova", "Helvetica Neue", "Joss", "Source Sans", "Inter", "IBM Plex Sans", "Public Sans", "Noto Sans", "Atkinson Hyperlegible", -apple-system, BlinkMacSystemFont, "Segoe UI", Arial,  sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
@@ -40,8 +55,8 @@
 
 //$font-family-headers: "Offside";
 
-$font-family-sans-serif: "Source Sans Pro", sans-serif;
-$headings-font-family:   "Schibsted Grotesk", system-ui, sans-serif;
+$font-family-sans-serif: "RoobertTRIAL", sans-serif;
+$headings-font-family:   "Gilda Display", system-ui, sans-serif;
 $font-family-monospace:  "IBM Plex Mono", ui-monospace, monospace;
 
 /*-- scss:rules --*/
