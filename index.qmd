@@ -6,7 +6,7 @@ subtitle: "Afterlives of a Global Cultural Form in the Post-Cinematic Age"
 :::: {.content-visible when-format="html"}
 ![](gif/time-stretched1.gif)
 
-::: {.column-margin}
+::: column-margin
 VM300-03\
 [Department of Visual & Media Arts](https://emerson.edu/academics/academic-departments/visual-media-arts)\
 [Emerson College](https://emerson.edu/)\
@@ -23,19 +23,18 @@ Office Hour: TBA\
 
 :::: {.content-visible when-format="pdf"}
 ::: {layout="[[49, -2, 49]]"}
-![](img/TimeStretched_46.jpg)  
-VM300-03  
-[Department of Visual & Media Arts](https://emerson.edu/academics/academic-departments/visual-media-arts)  
-[Emerson College](https://emerson.edu/)  
-Spring Semester 2026  
-Wed 14 Jan---Wed 29 April 2026  
-14:00-17:45  
-[Dr. Martin Roberts](http://mroberts1.github.io/)\\  
-Office Hour: TBA  
-[YouTube playlist](https://www.youtube.com/playlist?list=PL3uFXkpHLYM6EmE6yxN-NcYVFqoOnPGzR)  
-[YouTube playlist - student](https://youtube.com/playlist?list=PL3uFXkpHLYM4Y01MlQrbOY8c59AW3t5Gb&si=q3qC80RAbX03pjx7)  
-[{{< fa regular envelope >}}](mailto:martin_roberts@emerson.edu) \| [{{< fa brands mastodon >}}](https://merveilles.town/@dokoissho) \| [{{< fa brands github >}}](https://github.com/mroberts1/) \| [{{< fa brands twitter >}}](https://twitter.com/mroberts_vma)\ 
-
+![](img/TimeStretched_46.jpg)\
+VM300-03\
+[Department of Visual & Media Arts](https://emerson.edu/academics/academic-departments/visual-media-arts)\
+[Emerson College](https://emerson.edu/)\
+Spring Semester 2026\
+Wed 14 Jan---Wed 29 April 2026\
+14:00-17:45\
+[Dr. Martin Roberts](http://mroberts1.github.io/)\\\
+Office Hour: TBA\
+[YouTube playlist](https://www.youtube.com/playlist?list=PL3uFXkpHLYM6EmE6yxN-NcYVFqoOnPGzR)\
+[YouTube playlist - student](https://youtube.com/playlist?list=PL3uFXkpHLYM4Y01MlQrbOY8c59AW3t5Gb&si=q3qC80RAbX03pjx7)\
+[{{< fa regular envelope >}}](mailto:martin_roberts@emerson.edu) \| [{{< fa brands mastodon >}}](https://merveilles.town/@dokoissho) \| [{{< fa brands github >}}](https://github.com/mroberts1/) \| [{{< fa brands twitter >}}](https://twitter.com/mroberts_vma) 
 :::
 ::::
 
@@ -241,13 +240,11 @@ SPRING BREAK
 
 **Volumetric Cinema**
 
-::: column-margin
-
-<br><br>
-{{< video https://vimeo.com/119790662 >}}
+::: {.column-margin}
+<br><br> {{< video https://vimeo.com/119790662 >}}
 :::
 
--   Holly Willis, "[New Practices / New Paradigms](pdf/willis-new-paradigms.pdf" (in *Fast Forward: The Future(s) of the Cinematic Arts*)
+-   Holly Willis, "\[New Practices / New Paradigms\](pdf/willis-new-paradigms.pdf" (in *Fast Forward: The Future(s) of the Cinematic Arts*)
 -   Lev Manovich, "[Navigable Space](https://manovich.net/content/04-projects/022-navigable-space/18_article_1998.pdf)" (1998)
 -   Kevin L. Ferguson, “[Volumetric Cinema](pdf/ferguson-volumetric-cinema.pdf)”
 -   [Radiance Fields](https://radiancefields.com/) (website)
@@ -262,10 +259,21 @@ Watch: [Volumetric Cinema](https://vimeo.com/119790662) (Kevin L. Ferguson)
 
 04-01-26_Wed
 
-**Ecocinema**
+**Generative Worlds**
 
--   Selmin Kara, "Anthropocenema: Cinema in the Age of Mass Extinctions" (in Denson and Leyda, eds., *Post-Cinema*)
--   Shane Denson, "Post-Cinema After Extinction"
+Bilawal Sidhu, "[Playable Reality Is Here. Stepping Inside Genie - Google's World Model](https://www.spatialintelligence.ai/p/playable-reality-stepping-inside)" (*Map the World by Bilawal Sidhu*, 29 January 2026)
+
+::: {.column-margin}
+{{< video https://youtu.be/lALGud1Ynhc >}}
+:::
+
+Fei-Fei Li, "[From Words to Worlds: Spatial Intelligence is AI’s Next Frontier](https://drfeifei.substack.com/p/from-words-to-worlds-spatial-intelligence)" ([Dr. Fei-Fei Li](https://drfeifei.substack.com/), Substack, 10 November 2025)
+
+[Genie 3](https://deepmind.google/models/genie/) 
+
+[Marble](https://marble.worldlabs.ai/)
+
+[World Labs](https://www.worldlabs.ai/)
 
 ------------------------------------------------------------------------
 
@@ -273,12 +281,15 @@ Watch: [Volumetric Cinema](https://vimeo.com/119790662) (Kevin L. Ferguson)
 
 04-08-26_Wed
 
-**Ephemeral Cinema**
+**Invisual Images**
 
-Maria Vélez-Serna, *Ephemeral Cinema Spaces: Stories of Reinvention, Resistance and Community*:
+[Trevor Paglen](https://paglen.studio/), "[Operational Images](https://www.e-flux.com/journal/59/61130/operational-images/)" (*e-flux journal*, #59, November 2014)
 
--   "Introduction"
--   "Unstable constellations: recognizing cinema out of place" (ch. 1)
+[Trevor Paglen](https://paglen.studio/), "[Invisible Images (Your Pictures Are Looking At You)](https://thenewinquiry.com/invisible-images-your-pictures-are-looking-at-you/)" (*The New Inquiry*, 8 December 2016)
+
+Michael Standaert, "[Smile for the camera: the dark side of China's emotion-recognition tech](https://www.theguardian.com/global-development/2021/mar/03/china-positive-energy-emotion-surveillance-recognition-tech)" (*The Guardian*, 3 March 2021).
+
+Will Fernstermaker, "[Invisible Images: Can we trust human visual culture in our modern machinic landscape?](https://publicseminar.org/2023/02/invisible-images/)" (Public Seminar, The New School, 6 February 2023).
 
 **Deadline: 3DGS Project**
 
