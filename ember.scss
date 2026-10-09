@@ -30,6 +30,15 @@
 @import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Offside&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Gilda+Display:wght@400;700&display=swap');
+// Changeling Neo from Adobe Fonts (kit vqx0msf), headings only
+@import url("https://use.typekit.net/vqx0msf.css");
+// Paper Mono (OFL), self-hosted
+@font-face {
+  font-family: "Paper Mono";
+  src: url("fonts/PaperMono.woff2") format("woff2");
+  font-weight: 100 800;
+  font-display: swap;
+}
 @font-face {
   font-family: "RoobertTRIAL";
   src: url("fonts/roobert-font-family/RoobertTRIALVF-BF67243fd545701.ttf") format("truetype");
@@ -55,9 +64,9 @@
 
 //$font-family-headers: "Offside";
 
-$font-family-sans-serif: "RoobertTRIAL", sans-serif;
-$headings-font-family:   "Gilda Display", system-ui, sans-serif;
-$font-family-monospace:  "IBM Plex Mono", ui-monospace, monospace;
+$font-family-sans-serif: "Paper Mono", ui-monospace, Menlo, monospace;
+$headings-font-family:   "changeling-neo", "Helvetica Neue", Helvetica, Arial, sans-serif;
+$font-family-monospace:  "Paper Mono", ui-monospace, Menlo, monospace;
 
 /*-- scss:rules --*/
 

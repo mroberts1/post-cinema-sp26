@@ -4,9 +4,11 @@ subtitle: "Afterlives of a Global Cultural Form in the Post-Cinematic Age"
 ---
 
 :::: {.content-visible when-format="html"}
-![](gif/time-stretched1.gif)
+```{=html}
+<video src="video/bugonia-short.mp4" poster="video/bugonia-poster.jpg" autoplay muted loop playsinline controls style="width: 100%;"></video>
+```
 
-::: column-margin
+::: {.column-margin}
 VM300-03\
 [Department of Visual & Media Arts](https://emerson.edu/academics/academic-departments/visual-media-arts)\
 [Emerson College](https://emerson.edu/)\
@@ -38,7 +40,7 @@ Office Hour: TBA\
 :::
 ::::
 
-<small>Image: Anton Repponen, *Time Stretched No. 25* (2025)</small>
+<small>*Bugonia* (Yorgos Lanthimos, 2025)</small>
 
 ## Overview
 
